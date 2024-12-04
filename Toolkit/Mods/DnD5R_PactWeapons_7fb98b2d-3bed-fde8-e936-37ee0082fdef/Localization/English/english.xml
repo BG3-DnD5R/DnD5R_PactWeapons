@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hd5bdc63bg7c77g4a51g4796g5ca725b559d6" version="1">Pact of the Blade</content>
+  <content contentuid="he85009b2g9ad9g3566g6249gca0665eb1bc0" version="1">Summon a weapon to your hand. It uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;, and its damage is magical.</content>
+  <content contentuid="hb70ab387g643dg7bf9g6b2cg3d183bd0ace6" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with the weapon. You can only have one at a time. The weapon disappears if you are more than [1] away from it for more than 10 rounds.</content>
+  <content contentuid="h06613667gef81ga837g9a68gbfd31df1a143" version="1">Pact of the Blade: Battleaxe</content>
+  <content contentuid="h1ecacf08gbfebgab65g56fage2bdb1206291" version="1">Summon a battleaxe.</content>
+  <content contentuid="h5979eff2g912ag8afag0ca7g11d08a237a3e" version="1">Pact of the Blade: Glaive</content>
+  <content contentuid="h7b2b901eg0fbega02bg96bagefd6a624cd65" version="1">Summon a glaive.</content>
+  <content contentuid="h97d11577gc383g2984gce0fgb9a74ed65895" version="1">Pact of the Blade: Greatsword</content>
+  <content contentuid="he929864eg2fa7gb226g1ebbg3a962b29a460" version="1">Summon a greatsword.</content>
+  <content contentuid="h97bc2e86gbf0eg7f46gc804g8aa177425e5b" version="1">Pact of the Blade: Rapier</content>
+  <content contentuid="h154abaa2g56f3g77ccga437g34fd94514ea7" version="1">Summon a rapier.</content>
+  <content contentuid="hbd88a0ddg81dbg1522g7b31g64475c97f2ff" version="1">Pact of the Blade: Trident</content>
+  <content contentuid="hcfda4d39g0f1cg57aeg9741g5e8cf190855e" version="1">Summon a trident.</content>
+  <content contentuid="hda695700g1d4dg0f9egd6f6gb30096334d8b" version="1">Pact of the Blade: Warhammer</content>
+  <content contentuid="h7a1b5a52g8e0cgbe37gf2ddgbf08ce1b9aff" version="1">Summon a warhammer.</content>
+  <content contentuid="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="1">Bind Pact Weapon</content>
+  <content contentuid="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="1">Bind to your main hand weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h15c3c18dg9eafgeb83gea2ag6ce626c76dfb" version="1">You can only have 1 pact weapon at any time. &lt;br&gt;&lt;br&gt;The weapon returns to its previous state if you are more than [1] away from it for more than 10 rounds.</content>
+  <content contentuid="h1321c78ag3645g5c6dgab0dg5150d74ec507" version="1">Dismiss Pact Weapon</content>
+  <content contentuid="h72c8b82fg6d4cgbf4eg68d0g7014ccf62fc7" version="1">Dismiss your pact weapon. </content>
+  <content contentuid="hf2223ba6g098bgafa3ge8a7ge51cf94931e8" version="1">If you summoned it, it disappears. If you bound a weapon to you, it returns to its previous state.</content>
+</contentList>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="7fb98b2d-3bed-fde8-e936-37ee0082fdef"/>
+            <attribute id="Name" type="LSString" value="DnD5R_PactWeapons"/>
+            <attribute id="UUID" type="LSString" value="ef90be33-eb50-2af1-42e6-983179b11287"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>
