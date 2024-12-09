@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
+        <field name="Name" type="NameTableFieldDefinition" value="_WPN_DnD5R_PactWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4579258e-c5c1-4ea4-b724-597f432e6e2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1fe60df5-e453-48cc-ac62-c921f8f99449" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Versatile;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed81b990-2cb1-4125-a483-bf4f314e96df" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Club" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="62d1e445-7704-4508-9c6f-e5be8c451d80" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Clubs)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53c68823-dd0c-47a8-a8cc-f51a8ebe676e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a9d93633-c118-4ca2-842f-56f9cbd4e8ef" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Daggers)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Thrown;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3000568-b5d3-49cd-85a4-1291f2fa2e5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c5fd5f25-85c1-4e03-bb95-92eae683a378" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Flails)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3475ebe-42db-4559-acac-a23ed8966061" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c1bb02d2-d3f8-4830-930c-5c68f350d2f1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Glaives)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Reach;Twohanded;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec82c427-4fc8-4be1-a57f-3e3d56e64fc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dbbcf3de-b151-44a3-b37e-a34233632c13" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Greatxes)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Twohanded;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aabee1e2-025f-46f6-ae63-7bead223f06b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Greatclub" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06b6288f-a943-4b3d-b408-c9585083da2c" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f341efd4-bcc5-4344-98c2-05b1a83a4218" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Greatclubs)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Twohanded;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b252311-7b1e-434f-89c9-83d944aba887" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="af8cc5ee-ef4e-48ca-83e3-f74972f9f5f5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0544de34-ec7b-4592-84d0-1741a69406df" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Greatswords)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Twohanded;Heavy;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd31eeec-dd3f-4340-a916-d20287e817cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="52bcf42c-804c-458a-a464-c39b455e398f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Halberds)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Reach;Twohanded;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="505f4eaa-2e4d-4278-8d56-84298549533d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Handaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="40abdb33-1b92-4859-a774-2ed7854c5356" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Handaxes)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Thrown;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f18288f2-c5f2-4fe3-8149-f828ec46e34b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Javelin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7a1582de-945e-4972-93c6-924d5006fbaa" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5bcfe7b8-a954-4c4b-83aa-b0406f954b59" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Javelins)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec55308b-e232-4e2e-bd26-9efbd20ad86e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_LightHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce73b8f5-314e-43e0-bf05-12e411ebe12f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04537665-2345-4d11-a051-2c1d327c5d03" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightHammers)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3d72c87-1d04-408c-8642-46098b861a5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e6daaae3-490f-4126-a2eb-d69243b7223e" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Longswords)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Versatile;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38eca762-6064-4e08-9b63-4255ab0e03da" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="66f7e69b-c2c1-4cd7-b7c4-6a871f911afc" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Maces)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3191436d-ba89-4986-bf57-981aca710db2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="aeb50516-d6fb-4291-97d8-5e880539b381" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Mauls)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Twohanded;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8cfdbb4c-c058-4d58-8942-fa19f0a08ac4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Morningstar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="542839c1-5b0a-4959-b88d-d05e722670ca" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Morningstars)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c03a0cc-f6c0-4cf9-bab8-1757e1823b75" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="05563175-266c-46da-a934-eb643b1b79b7" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Pikes)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Reach;Melee;Twohanded;Heavy;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcc8d694-f178-4696-ad02-72d740e97a65" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b87bd275-4b31-4d14-a1bc-892043582222" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Quarterstaffs)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5de878a7-c82a-4f2c-8b6a-20149dafe40a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="913596cd-7982-4d48-bc62-9675bb853204" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Rapiers)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2b48a10-7e6d-472a-a2aa-a01bb2a1e319" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a02c3df1-c3ae-4854-8c3d-e6615edd8166" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Scimitars)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4158dacf-9119-40ed-b799-b3dccbcdf5f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a44087dd-42a1-4540-9131-b26577ddf45d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shortswords)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57d5dc5d-44cc-4129-8382-ad3d0e41c3af" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Sickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8f091d2-5279-4ade-a17b-94a91a6b5ff3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Sickles)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94edc03c-65fb-485c-85a0-071a80da084c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8f091d2-5279-4ade-a17b-94a91a6b5ff3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Spears)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d963391-5c4e-4cc6-a73d-572b46054532" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Trident" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1f2530de-093e-4801-9f65-9207eb49359c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Tridents)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b854046c-70e9-4c57-b702-91c3c844d569" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3fad549a-55cf-47f5-8778-a7fed79d0a4a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Warhammers)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d88bf750-f397-406a-98d8-3eca806b3e75" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Warpick" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d9cb8268-f7ca-488e-af82-14ccb2bed597" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Warpicks)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ec5c4a2-60f9-4ed2-ab98-edcb3cface2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d7ecef9c-ad29-4ae3-9f69-3998c3fc8ffa" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HandCrossbows)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Light;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68f2fafa-d8f3-4c92-9995-3a4c80fe2bf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ffcb324e-e632-4aa2-a472-73e5e1edb9b8" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyCrossbows)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60b749d9-8e16-4d84-8222-191ef9369e65" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_LightCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58324914-94a4-49e3-a00b-4c914d5f52d8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="658209d6-15ac-4049-88bd-d5572c7f6bdf" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightCrossbows)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29e9de07-aa99-41e4-8141-ef967cd2bd98" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bb7ba98-1d0f-44ed-acde-9ff961b8d9de" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a0e07d2e-8c56-4ca2-98ff-48717894a773" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Longbows)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Heavy;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e85e57bc-74e8-46e5-897e-ad763f6f2692" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="798bcedd-7c77-475f-bc54-99b23d53b5f1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f6535bf9-bce9-495e-84cb-969d893e273f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shortbows)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

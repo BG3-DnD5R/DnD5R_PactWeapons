@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bbb4bfcc-9437-489b-a489-b88bd973e0cb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eff7d1a6-1251-41b0-873b-d513f04aacbc" />
+        <field name="EquipmentTemplate" type="GuidTableFieldDefinition" value="ae6f2245-fda6-4bd1-9696-8423b0532b4c" />
+        <field name="IconGenerationTrigger" type="FixedStringTableFieldDefinition" value="Icon_Weapon_Dagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="40f3dccc-b503-4d3c-bd32-8b122af8a752" />
+        <field name="EquipmentTemplate" type="GuidTableFieldDefinition" value="a3b59b1d-ce04-49ea-bd68-cb999a72f59f" />
+        <field name="IconGenerationTrigger" type="FixedStringTableFieldDefinition" value="Icon_Weapon_Longbow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dee16e6b-050c-4d42-a8d9-2c214ccc764f" />
+        <field name="EquipmentTemplate" type="GuidTableFieldDefinition" value="f01d996f-07c7-4b8f-944f-7fbfc4cb74ae" />
+        <field name="IconGenerationTrigger" type="FixedStringTableFieldDefinition" value="Icon_Weapon_Mace" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e5bb49b4-6c5c-493a-baa4-b7828b7aad0c" />
+        <field name="EquipmentTemplate" type="GuidTableFieldDefinition" value="5a832798-1bf4-435d-bab9-fc226409cd86" />
+        <field name="IconGenerationTrigger" type="FixedStringTableFieldDefinition" value="Icon_Weapon_Shortsword" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
