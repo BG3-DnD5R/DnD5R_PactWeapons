@@ -247,7 +247,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_Pact_Sickle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8f091d2-5279-4ade-a17b-94a91a6b5ff3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0249163c-dc39-4879-8f3e-4dd833f97872" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Sickles)" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
