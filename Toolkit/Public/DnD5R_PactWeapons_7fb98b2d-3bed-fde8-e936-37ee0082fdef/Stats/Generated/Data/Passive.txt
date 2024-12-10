@@ -1,0 +1,15 @@
+new entry "Passive_DnD5R_PactOfTheBlade"
+type "PassiveData"
+data "DisplayName" "ha2abb2e7gbf1egad8fg5615g987d99633777;1"
+data "Description" "h0b424ee5g45e9gfab9g7d5dg8972e9754f9c;1"
+data "ExtraDescription" "hc6bccb41g1a5fge039g91dcgcde85ac08636;1"
+data "Icon" "PassiveFeature_PactOfTheBlade"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_DnD5R_PactOfTheBlade);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind)"
+
+new entry "Passive_DnD5R_PactOfTheBlade_Ranged"
+type "PassiveData"
+using "Passive_DnD5R_PactOfTheBlade"
+data "DisplayName" "h7706112eg01b6g355ag04fbgd97fe03e9b85;1"
+data "Boosts" "UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind_Ranged);"
+

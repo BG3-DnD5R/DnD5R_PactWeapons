@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f6535bf9-bce9-495e-84cb-969d893e273f" />
+					<attribute id="Name" type="LSString" value="WPN_DnD5R_Pact_Shortbow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="74c41595-b1df-45e4-bb3f-a93b9d7f421c" />
+					<attribute id="VisualTemplate" type="FixedString" value="23721f36-2d0b-12d8-4ca7-7b5a5cdbda20" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b95ba790-8806-83b8-0ace-3827c0673c00" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5a1637b9g902fgd07fg3026g97cb34abf566" version="4" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortbow_A_2" />
+					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Shortbow" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="ha5479a45g398bg6607g308cg88a15794e4de" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="520bf44f-b723-4e61-8d59-19ba47a7c1ca" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0439955 -0.003476 -0.2740365" />
+									<attribute id="Max" type="fvec3" value="0.070368 0.052096 0.2740365" />
+									<attribute id="Radius" type="float" value="0.233404" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.087991 -0.003476 -0.548073" />
+									<attribute id="Max" type="fvec3" value="0.140736 0.052096 0.548073" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.087991 -0.003476 -0.548073" />
+									<attribute id="Max" type="fvec3" value="0.140736 0.052096 0.548073" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

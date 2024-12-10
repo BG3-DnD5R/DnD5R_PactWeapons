@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
   <stat_objects>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bce3ec7-bee5-41d8-95ac-a7d3b4131334" />
+        <field name="Name" type="NameTableFieldDefinition" value="_DnD5R_Warlock_PactWeapon" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_PactOfTheBlade_BoundWeapon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5bdc63bg7c77g4a51g4796g5ca725b559d6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he85009b2g9ad9g3566g6249gca0665eb1bc0" version="1" />
@@ -18,98 +24,379 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d9038b21-f4cc-4c8a-99c1-6168e1fe46ba" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="135cb448-04f9-4543-b670-7bebea4ae21d" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade_Battleaxe;Shout_PactOfTheBlade_Glaive;Shout_PactOfTheBlade_Greatsword;Shout_PactOfTheBlade_Rapier;Shout_PactOfTheBlade_Trident;Shout_PactOfTheBlade_Warhammer" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Battleaxe;Shout_DnD5R_Pact_Club;Shout_DnD5R_Pact_Dagger;Shout_DnD5R_Pact_Flail;Shout_DnD5R_Pact_Glaive;Shout_DnD5R_Pact_Greatsword;Shout_DnD5R_Pact_Greataxe;Shout_DnD5R_Pact_Greatclub;Shout_DnD5R_Pact_Halberd;Shout_DnD5R_Pact_Handaxe;Shout_DnD5R_Pact_Javelin;Shout_DnD5R_Pact_LightHammer;Shout_DnD5R_Pact_Longsword;Shout_DnD5R_Pact_Mace;Shout_DnD5R_Pact_Maul;Shout_DnD5R_Pact_Morningstar;Shout_DnD5R_Pact_Pike;Shout_DnD5R_Pact_Quarterstaff;Shout_DnD5R_Pact_Rapier;Shout_DnD5R_Pact_Scimitar;Shout_DnD5R_Pact_Shortsword;Shout_DnD5R_Pact_Sickle;Shout_DnD5R_Pact_Spear;Shout_DnD5R_Pact_Trident;Shout_DnD5R_Pact_Warhammer;Shout_DnD5R_Pact_Warpick" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb70ab387g643dg7bf9g6b2cg3d183bd0ace6" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="Name" type="NameTableFieldDefinition" value="_DnD5R_Warlock_PactWeapon_Melee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory( ,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cc44aa37-8571-48e4-a845-e73ce7f374dc" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Battleaxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(407954e3-71e4-4611-9221-0ba3ea71d6e8,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(1fe60df5-e453-48cc-ac62-c921f8f99449,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06613667gef81ga837g9a68gbfd31df1a143" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Battleaxe" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Battleaxe" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ecacf08gbfebgab65g56fage2bdb1206291" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b0b2ae3-6bd8-4953-9e08-8bc6f808c262" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Club" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(62d1e445-7704-4508-9c6f-e5be8c451d80,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Club" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h12d64328g6de4g24dbg2528ga8242866c7cc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1dcc2971g8a7ag774cg0f7fgf7ee044ae184" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b91fc076-60bc-4a59-a9d0-9594d72d1f97" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(a9d93633-c118-4ca2-842f-56f9cbd4e8ef,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Dagger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd61e081dgc5aegb98bg0117g0534e2005ab2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb559e8d9g7d5dgfd00g68d2g35b65092ee5a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ba59942-cc5e-4661-804e-77aef02e21e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(c5fd5f25-85c1-4e03-bb95-92eae683a378,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Flail" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74343d78g1d20g9b03g00a5g5aef1963a991" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6cd2f0ecg9944ga994g062bgf24603e081cf" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d3aa109c-05b2-46af-8939-a7dc022608e8" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Glaive" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(e7dab8bd-8037-4d8e-9c4e-ebec705912aa,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(c1bb02d2-d3f8-4830-930c-5c68f350d2f1,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5979eff2g912ag8afag0ca7g11d08a237a3e" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Glaive" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Glaive" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b2b901eg0fbega02bg96bagefd6a624cd65" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38cf75e6-dd98-45ad-ace0-b379b35864be" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(dbbcf3de-b151-44a3-b37e-a34233632c13,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Greataxe" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe872f7cg94afgdea1g0c1bg52dd706e2870" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa019c07g6acfgb4b2g7761g7b751913e1ec" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89546ad9-5604-486a-8ac9-e8c2ab232738" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Greatclub" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f341efd4-bcc5-4344-98c2-05b1a83a4218,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Greatclub" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1899b702gb546g58ecgc0b0g4f6bbf9efbe4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc4de848g75f5g4271g6ea3g43d9066516ba" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="18d04c09-3432-493d-bc54-102beaddd157" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Greatsword" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(e90936db-7f65-446c-819d-c7fc6ba44d6c,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(0544de34-ec7b-4592-84d0-1741a69406df,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97d11577gc383g2984gce0fgb9a74ed65895" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Greatsword" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Greatsword" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he929864eg2fa7gb226g1ebbg3a962b29a460" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b34df1f2-a210-4764-bc21-081712e04421" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(52bcf42c-804c-458a-a464-c39b455e398f,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Halberd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2a45b6bg07d1g4715gf3d2gd93c6c3bd6f6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6878a87fg9de6ge240g4fb1gbb131e379f71" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad855426-2d73-46b8-9f31-159609de27b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Handaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(40abdb33-1b92-4859-a774-2ed7854c5356,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Handaxe" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b7e39dbg6743g8741g328agd95f68462412" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea816580geee7g55c6gb655g7ef3d73f346b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a105d9a-a46f-454d-a1f5-fec73db15270" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Javelin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(5bcfe7b8-a954-4c4b-83aa-b0406f954b59,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Javelin" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9a1cc68g4446g7d64g0d53gddf823fb0b16" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="habd92c60g0a02gf039g33d0g29ddb38182d2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55c4e4da-eb8a-44c8-8933-eba88b6aca4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_LightHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(04537665-2345-4d11-a051-2c1d327c5d03,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_LightHammer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e334ac0g96e7g5982g6376g364903350249" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hed976bcfg409fg8fc0gff9bga08e392b40c0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a034edef-7a16-4f7c-a247-867a80887193" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(e6daaae3-490f-4126-a2eb-d69243b7223e,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Longsword" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h809f0823g04b6g417cg0a29g414af0b9f4e1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h25e138b9g4164g4e7eg6025g532a54125e42" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53714846-4bbf-4960-99a9-a7be755c8830" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(66f7e69b-c2c1-4cd7-b7c4-6a871f911afc,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Mace" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h486d8c12ge329g809fgdb77gb338fb4d730e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec903cfdgebbcgde99gdc6fg0019867193c4" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50adcfc0-828b-4a1b-93a0-fa7eba3559f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(aeb50516-d6fb-4291-97d8-5e880539b381,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Maul" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce2b1332g7d6cgd2b0g875egf5928eb2e15f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e4cfb6eg755bg9af1g9c33g96e0e0afd237" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df42f76a-da0d-4e8c-b02a-ac0a5169f270" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Morningstar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(542839c1-5b0a-4959-b88d-d05e722670ca,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Morningstar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h871d3e52g99bbg164dg6372g91fa5209eba4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d6413f9gbdf8g1e3agfeceg0fe91a499719" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c98f7cf0-e002-41e8-93fc-3665a0c49301" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(05563175-266c-46da-a934-eb643b1b79b7,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Pike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h503a6ffcgff46gd1c2g8f42g296cb4c62e59" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h335a6487g3dcegb113g6d1bgd5865a07ee63" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9e33dcc-ee89-4072-8b84-47c8c1e933a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(b87bd275-4b31-4d14-a1bc-892043582222,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Quarterstaff" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d8101a5g3082gcdecg54f8g39352dc10505" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b6a585fg4fd1ge126g33b2g6060435f692f" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="234da5c8-c833-45c9-93c1-f1f1ee94cac0" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Rapier" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(705662e8-2a7f-4c7e-b0a0-e505395a45e3,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(913596cd-7982-4d48-bc62-9675bb853204,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97bc2e86gbf0eg7f46gc804g8aa177425e5b" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Rapier" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Rapier" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h154abaa2g56f3g77ccga437g34fd94514ea7" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b588ac7-a15d-47f6-993f-ee1e49ce3abc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(a02c3df1-c3ae-4854-8c3d-e6615edd8166,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Scimitar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7569580g147bg4b0eg6464g0b7c27062073" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb193bdeeg9466g9295g44ffgb34bb07850e5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de5165b5-c02b-4d0d-9d43-0f1e02374f2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(a44087dd-42a1-4540-9131-b26577ddf45d,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Shortsword" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9680fe03gdc41gfdc9g0741gd3344b9fcdf7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17fc07ddg33dag93f5g1da9g46385eacac5f" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b106da9a-2ce8-4a1f-a75e-4e34148bb561" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Sickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(0249163c-dc39-4879-8f3e-4dd833f97872,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Sickle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a21cc27gae9fgfb1eg6d87g7307b673be51" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdfcc625g9204g3772g7f5dge0e7c8f8cba7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="145d33cf-2eb3-4425-9bdf-5154ebdd0aaf" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(c8f091d2-5279-4ade-a17b-94a91a6b5ff3,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Spear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0839f56g02a4g8cd9g4f5ag4d5bc34af951" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5886be7cg8ae1g512fg003eg5f838764de8f" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ee3c097d-d3e4-4d01-abfe-6d5a83c7cfd3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Trident" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(fd1b4c45-e2df-4add-bc56-697d0339c4bd,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Trident" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(1f2530de-093e-4801-9f65-9207eb49359c,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd88a0ddg81dbg1522g7b31g64475c97f2ff" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Trident" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Trident" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcfda4d39g0f1cg57aeg9741g5e8cf190855e" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="053d47b7-7bc7-431a-b526-8435cf11d518" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Warhammer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dea85f03-4f00-4960-815f-f06e434da129" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(fdaf8461-4d1a-4364-8d7d-4dd9ce824a1e,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(3fad549a-55cf-47f5-8778-a7fed79d0a4a,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda695700g1d4dg0f9egd6f6gb30096334d8b" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Warhammer" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Warhammer" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a1b5a52g8e0cgbe37gf2ddgbf08ce1b9aff" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UNUSED_D" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ca00ea9-9e4b-492a-9307-b54786565fab" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Warpick" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(d9cb8268-f7ca-488e-af82-14ccb2bed597,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Warpick" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97a4e17bg4a3fge27bg7ca5g9b5f0cf108eb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h084c48a7gabdfgdff0g27b0g0ab8384aa013" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="Name" type="NameTableFieldDefinition" value="_DnD5R_Warlock_PactWeapon_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c713f98-2e9b-432e-b186-b80b8e4e6abd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="169084b4-7ce4-411a-b85b-8893a9d17433" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(d7ecef9c-ad29-4ae3-9f69-3998c3fc8ffa,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_HandCrossbow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b90f972g1e5egd6bdg1be5g2c4894ff94c6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc20f1320g75c4g7719gebfdgc7c4ff80f968" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25d0cbdb-3890-4122-a1f7-70e35bcf9384" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(ffcb324e-e632-4aa2-a472-73e5e1edb9b8,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_HeavyCrossbow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h329b3742g25d2gcca5g6f0bgf7cb891a8492" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h20a15f91gfd6agf514g6452g767420ccfcba" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34af9318-44e3-4496-b8a7-327e7ddbed96" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_LightCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(658209d6-15ac-4049-88bd-d5572c7f6bdf,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_LightCrossbow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e67e89cga764gb055ga24ag212da7e0f800" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0d7c098ag668fgfa1dg810bg0c211354b6a0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5121a66-01c4-4804-b5b6-c2ccc1e09f78" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(a0e07d2e-8c56-4ca2-98ff-48717894a773,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Longbow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66dd9b75g76a4g4ba4g3c25g59e052ca0289" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc36a2703g1f2ag970dg9b91gb3fc9df17e76" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f89a7261-7057-42ed-97c7-93732f50fa84" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_Pact_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c949c8c-0742-437b-8929-342b933a9528" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f6535bf9-bce9-495e-84cb-969d893e273f,Permanent,1,true,true,true,,,PactBlade,PACT_BLADE)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_Pact_Shortbow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf3ce06b8gce91ga6dbg17adgce024c725c78" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d234695g6570g54fcg0d22gea3fe4417294" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_BindPactWeapon" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
@@ -131,19 +418,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="015afe33-e397-4c17-967f-6776770a87bf" />
-        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Dismiss" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_DismissPactWeapon" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1321c78ag3645g5c6dgab0dg5150d74ec507" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72c8b82fg6d4cgbf4eg68d0g7014ccf62fc7" version="1" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;7a343ea7-1330-428a-b0b1-9f6dc7f2a91c,,;0f872585-3c6e-4493-a0b5-5acc882b7aaf,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_DismissPactWeapon" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="31920fd1-c569-4325-be73-16431069d364" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a9d7947e-3c88-41c6-aec8-18ae408c366a" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf2223ba6g098bgafa3ge8a7ge51cf94931e8" version="1" />
-        <field name="FollowUpOriginalSpell" type="StringTableFieldDefinition" value="Target_PactOfTheBlade" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a6dc659-1c6c-4588-937f-640ebfbcac67" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100, -1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Unarmed() and not Tagged('PACT_OF_THE_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source)))" />
       </fields>
     </stat_object>
   </stat_objects>

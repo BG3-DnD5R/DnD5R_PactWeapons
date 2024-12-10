@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dbbcf3de-b151-44a3-b37e-a34233632c13" />
+					<attribute id="Name" type="LSString" value="WPN_DnD5R_Pact_Greataxe" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e99fd01c-2c7a-459e-8df0-3d7349239430" />
+					<attribute id="ReadinessFlags" type="uint32" value="25" />
+					<attribute id="VisualTemplate" type="FixedString" value="16a0b5c5-683c-7f86-0d91-fbc6ac9c8514" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dfb6ca9d-07e2-e37e-5dd9-e47fdc753df9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h52f52422g04e5g05f7g8ba1ge68b8ee0d3db" version="4" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_DoomAxe" />
+					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Greataxe" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h89b231bfg4478g13f4geecdgc2e99e271a39" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="62ff4f7c-0724-43fa-997b-ef0c486a5573" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

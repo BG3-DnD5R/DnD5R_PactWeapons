@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7e8ffd7-8a6a-4fd2-a944-95a98cabadce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2abb2e7gbf1egad8fg5615g987d99633777" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b424ee5g45e9gfab9g7d5dg8972e9754f9c" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_PactOfTheBlade);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc6bccb41g1a5fge039g91dcgcde85ac08636" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27ea0516-c0d4-4978-826f-434956e48ed8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a7e8ffd7-8a6a-4fd2-a944-95a98cabadce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7706112eg01b6g355ag04fbgd97fe03e9b85" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind_Ranged);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

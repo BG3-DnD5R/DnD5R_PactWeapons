@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c8f091d2-5279-4ade-a17b-94a91a6b5ff3" />
+					<attribute id="Name" type="LSString" value="WPN_DnD5R_Pact_Spear" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdfab852-aa07-46b2-ae92-8ab2bb9b1898" />
+					<attribute id="VisualTemplate" type="FixedString" value="1708594a-b10b-0394-afee-543f9af7dfd3" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="06600f91-fe3d-afa8-46e7-993244d56661" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9ded4585g9aa5g1138gbef3g197ba55738e0" version="4" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Lance_A_0" />
+					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Spear" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h74da3826ga142g52dbg1b6cgcc2eb2753935" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="cb322434-365d-47bf-8357-e2f202dfb129" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.03219127 -0.016657332 -0.91488945" />
+									<attribute id="Max" type="fvec3" value="0.03259521 0.030882372 0.25109732" />
+									<attribute id="Radius" type="float" value="0.2920068" />
+									<attribute id="Height" type="float" value="0.047539704" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06438254 -0.016657332 -1.8297789" />
+									<attribute id="Max" type="fvec3" value="0.06519042 0.030882372 0.50219464" />
+									<attribute id="Radius" type="float" value="0.5840136" />
+									<attribute id="Height" type="float" value="0.047539704" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06438254 -0.016657332 -1.8297789" />
+									<attribute id="Max" type="fvec3" value="0.06519042 0.030882372 0.50219464" />
+									<attribute id="Radius" type="float" value="0.5840136" />
+									<attribute id="Height" type="float" value="0.047539704" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
