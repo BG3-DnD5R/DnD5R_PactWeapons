@@ -15,8 +15,8 @@
   <content contentuid="hcfda4d39g0f1cg57aeg9741g5e8cf190855e" version="1">Summon a trident.</content>
   <content contentuid="hda695700g1d4dg0f9egd6f6gb30096334d8b" version="1">Pact of the Blade: Warhammer</content>
   <content contentuid="h7a1b5a52g8e0cgbe37gf2ddgbf08ce1b9aff" version="1">Summon a warhammer.</content>
-  <content contentuid="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="2">Bind Pact Weapon: Melee</content>
-  <content contentuid="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="1">Bind to your main hand weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="3">Bind Pact Weapon</content>
+  <content contentuid="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="2">Bind to your weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
   <content contentuid="h15c3c18dg9eafgeb83gea2ag6ce626c76dfb" version="1">You can only have 1 pact weapon at any time. &lt;br&gt;&lt;br&gt;The weapon returns to its previous state if you are more than [1] away from it for more than 10 rounds.</content>
   <content contentuid="h1321c78ag3645g5c6dgab0dg5150d74ec507" version="1">Dismiss Pact Weapon</content>
   <content contentuid="h72c8b82fg6d4cgbf4eg68d0g7014ccf62fc7" version="1">Dismiss your pact weapon. </content>
@@ -173,6 +173,13 @@
   <content contentuid="h0b424ee5g45e9gfab9g7d5dg8972e9754f9c" version="1">You can &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_PactOfTheBlade"&gt;Summon&lt;/LSTag&gt; a pact weapon, or &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_PactOfTheBlade_Bind"&gt;Bind&lt;/LSTag&gt; the one you are wielding, making it magical.</content>
   <content contentuid="hc6bccb41g1a5fge039g91dcgcde85ac08636" version="1">Pact weapons use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
   <content contentuid="h7706112eg01b6g355ag04fbgd97fe03e9b85" version="1">Pact of the Blade: Ranged</content>
-  <content contentuid="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="1">Bind Pact Weapon: Ranged</content>
-  <content contentuid="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="1">Bind to your main ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="2">Bind Pact Weapon: Ranged Off Hand</content>
+  <content contentuid="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="2">Bind to your off hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="hff7e4e27gca1fg59eag3a64g202d6bce31ce" version="1">Bind Pact Weapon: Melee Main Hand</content>
+  <content contentuid="h0926d6c1g6825ga2b7g97b9g888500540af1" version="1">Bind to your main hand melee weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h68a3c4cbg4f27ga30dg8db9gaf454c36303f" version="1">Bind Pact Weapon: Melee Off Hand</content>
+  <content contentuid="hac083d20g628cg20f2gfb57g35b4f088eda4" version="1">Bind to your off hand melee weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1">Bind Pact Weapon: Ranged Main Hand</content>
+  <content contentuid="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1">Bind to your main hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h998ba25agb755g879egc8a6g30d69a805878" version="1">Bind Pact Weapon: </content>
 </contentList>

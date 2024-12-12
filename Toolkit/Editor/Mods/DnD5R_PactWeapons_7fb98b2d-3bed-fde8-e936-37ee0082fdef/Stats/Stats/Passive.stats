@@ -19,7 +19,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_Ranged" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a7e8ffd7-8a6a-4fd2-a944-95a98cabadce" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7706112eg01b6g355ag04fbgd97fe03e9b85" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind_Ranged);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -11,5 +11,5 @@ new entry "Passive_DnD5R_PactOfTheBlade_Ranged"
 type "PassiveData"
 using "Passive_DnD5R_PactOfTheBlade"
 data "DisplayName" "h7706112eg01b6g355ag04fbgd97fe03e9b85;1"
-data "Boosts" "UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind_Ranged);"
+data "Boosts" "UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);"
 

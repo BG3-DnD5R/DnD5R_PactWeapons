@@ -15,7 +15,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5bdc63bg7c77g4a51g4796g5ca725b559d6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he85009b2g9ad9g3566g6249gca0665eb1bc0" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;7a343ea7-1330-428a-b0b1-9f6dc7f2a91c,,;0f872585-3c6e-4493-a0b5-5acc882b7aaf,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
@@ -396,35 +396,88 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_BindPactWeapon" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="2" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_BindPactWeapon" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="8e9914c9-7008-4252-ab31-a9776c444194" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fc23a5a6-f05b-40c3-8e0f-99377cfb04cc" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PACT_BLADE,100, -1)" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Unarmed() and not Tagged('PACT_OF_THE_BLADE',GetActiveWeapon())" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h15c3c18dg9eafgeb83gea2ag6ce626c76dfb" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_MeleeMH;Shout_DnD5R_PactOfTheBlade_Bind_RangedMH;Shout_DnD5R_PactOfTheBlade_Bind_MeleeOH;Shout_DnD5R_PactOfTheBlade_Bind_RangedOH;" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_Base" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h998ba25agb755g879egc8a6g30d69a805878" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b0c6206-e791-49fc-a918-0a595485b100" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_MeleeMH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100, -1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_MainHandAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff7e4e27gca1fg59eag3a64g202d6bce31ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0926d6c1g6825ga2b7g97b9g888500540af1" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b699797-63db-48e6-a71c-b4efeadca969" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_MeleeOH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100, -1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68a3c4cbg4f27ga30dg8db9gaf454c36303f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac083d20g628cg20f2gfb57g35b4f088eda4" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="793898fd-f2ca-4b24-bbb8-4543cec51847" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_RangedMH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100, -1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0a6dc659-1c6c-4588-937f-640ebfbcac67" />
-        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_Ranged" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100, -1)" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Unarmed() and not Tagged('PACT_OF_THE_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source)))" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_RangedOH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100, -1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="2" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_OffHandAttack" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
