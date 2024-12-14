@@ -182,4 +182,40 @@
   <content contentuid="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1">Bind Pact Weapon: Ranged Main Hand</content>
   <content contentuid="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1">Bind to your main hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
   <content contentuid="h998ba25agb755g879egc8a6g30d69a805878" version="1">Bind Pact Weapon: </content>
+  <content contentuid="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="1">Pact Weapon Damage</content>
+  <content contentuid="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="1">Placeholder Text</content>
+  <content contentuid="h88dd6c3cg8ff9gf269g4596gc9c8f47b2ec3" version="1">Pact Weapon</content>
+  <content contentuid="hec56f4a0gefd8g13fcg0d41gcd82ad06ec5a" version="1">The warlock bound to this weapon is always &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with it. The weapon's damage is magical.</content>
+  <content contentuid="h39e9893ag88ebg20edgaf1bgc75add60fac0" version="2">Damage Override</content>
+  <content contentuid="h37069a5dg3e6cg632egc674g9e2ad075243c" version="1">Placeholder</content>
+  <content contentuid="h09ca199eg878bg932ag1038g0ba6da2d5f59" version="2">Damage Override</content>
+  <content contentuid="h99cdeedbga89agbe65gbfefg6b4dce139b28" version="1">Placeholder</content>
+  <content contentuid="h3cb0e006gb396g46b9g7fc7gf04623584dea" version="2">Damage Override</content>
+  <content contentuid="h6ed7864fg83b5g5e94g2bf6gc97fd800dc7d" version="1">Placeholder</content>
+  <content contentuid="h358db5f1ge8a2geb97g3957gb5f6c3f245e5" version="1">Damage Override</content>
+  <content contentuid="ha2b3749bgdbddge553g2a3bg612ab33a06d8" version="1">Placeholder</content>
+  <content contentuid="hbe6b0a5bgd4aeg4468gfb42g65b0a2801889" version="1">Damage Override</content>
+  <content contentuid="h64d04335gbaf4g6df6g79c4g433765af6d37" version="1">Placeholder</content>
+  <content contentuid="h0ea37ebcg8c36g8116g9b90g25f3228ff24d" version="1">Damage Override</content>
+  <content contentuid="h9fdc3754gd8b4gce97gf747gbc918dc82f94" version="1">Placeholder</content>
+  <content contentuid="hbbd5cabbg0faag14c2geddfg628cf82c2dc2" version="1">Damage Override</content>
+  <content contentuid="hab0cb542gfdbbg07d9g64fegcefe255f53b5" version="1">Placeholder</content>
+  <content contentuid="hba61c6ddg1473gc696gd9e3g16c9a6873d7c" version="1">Damage Override</content>
+  <content contentuid="h480a697fgded3gb164g7aefg206e25250f69" version="1">Placeholder</content>
+  <content contentuid="hfbc91278ge05fg3ce4g8957g62a4f18200df" version="1">Damage Override</content>
+  <content contentuid="ha1cc5bc1g44c7gbd7ege934g508f5cafc0e4" version="1">Placeholder</content>
+  <content contentuid="h7e42d7aegb070g71ebgd664g5c2b935a444a" version="1">Damage Override</content>
+  <content contentuid="h2d92dd6agcacbg0ff7g0152g3ba91d32b416" version="1">Placeholder</content>
+  <content contentuid="h2899ed5cg3d1dgcc9cgd043g1bf61dbb3556" version="1">Damage Override</content>
+  <content contentuid="h64ff83afg560agdbd2ga42bgd525552fb269" version="1">Placeholder</content>
+  <content contentuid="hfc302126gdf6cg54ccg3079g3ffc9c3a0d89" version="1">Damage Override</content>
+  <content contentuid="hecfd7f28g6535gfcedg3cb7g41d947be0a43" version="1">Placeholder</content>
+  <content contentuid="h7ae5ed1fg07d1ge18bgaaf8gda8930d87db8" version="1">Damage Override</content>
+  <content contentuid="h1867c328gfb52g4e83gd634g946454ac579f" version="1">Placeholder</content>
+  <content contentuid="h289c83b1g38e8g430egff66g558ad108d8f1" version="1">Pact Weapon</content>
+  <content contentuid="h6233721ag6382g9f22g95a4g6527eb5bc1d6" version="1">Placeholder</content>
+  <content contentuid="h5c575a3dgafd7gdfbdgff78gb645b718d4a7" version="1">Pact Weapon</content>
+  <content contentuid="h089f38fbg8cf5g8427gb787g6c7a9674a2fa" version="1">Placeholder</content>
+  <content contentuid="h9e8c5499ga4afg98dcgcc6eg1f51ec4bdf2b" version="1">Pact Weapon</content>
+  <content contentuid="h314a4fc9g948eg38d3g93e7g4d8b2922c61b" version="1">Placeholder</content>
 </contentList>

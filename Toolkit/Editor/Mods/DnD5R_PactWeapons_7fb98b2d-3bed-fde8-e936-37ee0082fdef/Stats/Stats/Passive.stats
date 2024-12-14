@@ -22,5 +22,55 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Passive_DnD5R_PactOfTheBlade_DamageToggle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="DnD5R_PactOfTheBladeDamage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7617ef13-3b51-4850-b75d-4be7dedc47a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_RAD,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_RAD)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec15a534-b7a1-4eed-b430-76f59c4c2482" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_NEC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_NEC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7a4f401-5efa-4c39-be4d-9ecba0612976" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Psychic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_PSY,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_PSY)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44187629-a37c-46b6-a0f1-52b83693ca68" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_Test_Toggle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_PSYCHIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_PSYCHIC)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
