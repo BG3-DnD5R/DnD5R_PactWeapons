@@ -8,7 +8,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88dd6c3cg8ff9gf269g4596gc9c8f47b2ec3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec56f4a0gefd8g13fcg0d41gcd82ad06ec5a" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed();IF(HasStatus('STATUS_PACTWEAPON_NEC',GetOwner(context.Source))):WeaponDamageTypeOverride(Necrotic);IF(HasStatus('STATUS_PACTWEAPON_RAD',GetOwner(context.Source))):WeaponDamageTypeOverride(Radiant);IF(HasStatus('STATUS_PACTWEAPON_PSY',GetOwner(context.Source))):WeaponDamageTypeOverride(Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed();" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="63760e78-ec10-4c41-a097-173a6f1fe536" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_BindPactWeapon" />
@@ -19,26 +19,30 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b7777728-571d-434b-883e-33dfa78a343a" />
-        <field name="Name" type="NameTableFieldDefinition" value="STATUS_PACTWEAPON_RAD" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e8c5499ga4afg98dcgcc6eg1f51ec4bdf2b" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_PACTWEAPON_DAMAGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd93333d8gc0bdg5fe1g4aafg65e9c61c210b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h314a4fc9g948eg38d3g93e7g4d8b2922c61b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
-        <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Physical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PACTWEAPON_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead;ExcludeFromPortraitRendering;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('STATUS_PACTWEAPON_NEC',GetOwner(context.Source))):WeaponDamageTypeOverride(Necrotic);IF(HasStatus('STATUS_PACTWEAPON_PSY',GetOwner(context.Source))):WeaponDamageTypeOverride(Psychic);IF(HasStatus('STATUS_PACTWEAPON_RAD',GetOwner(context.Source))):WeaponDamageTypeOverride(Radiant)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('PACT_BLADE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6690783b-80ae-40a1-95c1-1ec6ad22f976" />
         <field name="Name" type="NameTableFieldDefinition" value="STATUS_PACTWEAPON_NEC" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c575a3dgafd7gdfbdgff78gb645b718d4a7" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c575a3dgafd7gdfbdgff78gb645b718d4a7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h089f38fbg8cf5g8427gb787g6c7a9674a2fa" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead;ExcludeFromPortraitRendering;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -51,7 +55,20 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead;ExcludeFromPortraitRendering;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0939d57-face-452f-a0e8-fe12d83b5073" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_PACTWEAPON_RAD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf89183dgc497ga7d6g6801g533b3dcbcae3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb75636bg0e79g329dgd017g12f13fa05c39" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -63,9 +80,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2b3749bgdbddge553g2a3bg612ab33a06d8" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Acid)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3798c69d-e202-4323-b660-2e1778dafafc" />
       </fields>
@@ -78,9 +94,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64d04335gbaf4g6df6g79c4g433765af6d37" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Thunder)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ca0b3ab3-dac0-47f7-b313-7ca69c85b5b4" />
       </fields>
@@ -93,9 +108,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99cdeedbga89agbe65gbfefg6b4dce139b28" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Necrotic)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9c94e468-751d-4967-870a-15f368cd5e3a" />
       </fields>
@@ -108,9 +122,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9fdc3754gd8b4gce97gf747gbc918dc82f94" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Fire)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8a4c7e6e-a629-4765-9c5d-d354838703d8" />
       </fields>
@@ -123,9 +136,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab0cb542gfdbbg07d9g64fegcefe255f53b5" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Lightning)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="7905bb82-0284-46b8-855b-24f17560fe4a" />
       </fields>
@@ -138,9 +150,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h480a697fgded3gb164g7aefg206e25250f69" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Cold)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e92003cd-6622-4a82-a3c7-69d6222f0ba0" />
       </fields>
@@ -152,10 +163,9 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cb0e006gb396g46b9g7fc7gf04623584dea" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ed7864fg83b5g5e94g2bf6gc97fd800dc7d" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
-        <field name="StackId" type="StringTableFieldDefinition" value="PACTWEAPON_DAMAGE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Psychic)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3e49f149-7477-4bb4-af1e-8a984d5f5573" />
       </fields>
@@ -168,9 +178,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1cc5bc1g44c7gbd7ege934g508f5cafc0e4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Poison)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="1bd2e0f8-d024-4fee-ae62-565deb9dc249" />
       </fields>
@@ -183,9 +192,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d92dd6agcacbg0ff7g0152g3ba91d32b416" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Force)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c4007bf4-09db-4aa4-99e5-6ff1f8693460" />
       </fields>
@@ -198,9 +206,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37069a5dg3e6cg632egc674g9e2ad075243c" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Radiant)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b8d5325f-fb81-4822-aa74-3a700b1ff8d4" />
       </fields>
@@ -213,9 +220,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64ff83afg560agdbd2ga42bgd525552fb269" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_SlashTheWeak" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Slashing)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="359918c9-0c9a-4714-a032-0deac359d00b" />
       </fields>
@@ -228,9 +234,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hecfd7f28g6535gfcedg3cb7g41d947be0a43" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PierceTheWeak" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Piercing)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="359918c9-0c9a-4714-a032-0deac359d00b" />
       </fields>
@@ -243,11 +248,22 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1867c328gfb52g4e83gd634g946454ac579f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_BludgeonTheWeak" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Bludgeoning)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="FreezeDuration;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="359918c9-0c9a-4714-a032-0deac359d00b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c94f1d82-dbc7-449e-95c0-bc8e6c309a0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_WEAPONDAMAGE_NONE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cc1b492gaa4bg7885g6e76g74dc0352ade6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82508f09gc057g5e8fg453ag8ee3f3c32ff4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Physical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WEAPONDAMAGE_OVERRIDE" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
