@@ -8,12 +8,11 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88dd6c3cg8ff9gf269g4596gc9c8f47b2ec3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec56f4a0gefd8g13fcg0d41gcd82ad06ec5a" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed();" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed();IF(HasStatus('STATUS_PACTWEAPON_NEC',GetOwner(context.Source))):WeaponDamageTypeOverride(Necrotic);IF(HasStatus('STATUS_PACTWEAPON_PSY',GetOwner(context.Source))):WeaponDamageTypeOverride(Psychic);IF(HasStatus('STATUS_PACTWEAPON_RAD',GetOwner(context.Source))):WeaponDamageTypeOverride(Radiant)" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
-        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="63760e78-ec10-4c41-a097-173a6f1fe536" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Warlock_BindPactWeapon" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableCombatlog;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -23,14 +22,14 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd93333d8gc0bdg5fe1g4aafg65e9c61c210b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h314a4fc9g948eg38d3g93e7g4d8b2922c61b" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Physical" />
-        <field name="StackId" type="StringTableFieldDefinition" value="PACTWEAPON_DAMAGE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PACTBLADE_TOGGLES" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator;DisableCombatlog;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('STATUS_PACTWEAPON_NEC',GetOwner(context.Source))):WeaponDamageTypeOverride(Necrotic);IF(HasStatus('STATUS_PACTWEAPON_PSY',GetOwner(context.Source))):WeaponDamageTypeOverride(Psychic);IF(HasStatus('STATUS_PACTWEAPON_RAD',GetOwner(context.Source))):WeaponDamageTypeOverride(Radiant)" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('PACT_BLADE')" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Necrotic;Passive_DnD5R_PactOfTheBlade_DamageToggle_Psychic;Passive_DnD5R_PactOfTheBlade_DamageToggle_Radiant" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasPassive('Passive_DnD5R_PactOfTheBlade',context.Source)" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -42,7 +41,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ExcludeFromPortraitRendering;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -55,7 +54,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ExcludeFromPortraitRendering;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -68,7 +67,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="StackId" type="StringTableFieldDefinition" value="PACT_BLADE_DAMAGE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ExcludeFromPortraitRendering;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>

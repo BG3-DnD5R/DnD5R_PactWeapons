@@ -11,6 +11,8 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_PactOfTheBlade);UnlockSpell(Shout_DnD5R_PactOfTheBlade_Bind)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc6bccb41g1a5fge039g91dcgcde85ac08636" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STATUS_PACTWEAPON_DAMAGE')):ApplyStatus(STATUS_PACTWEAPON_DAMAGE,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -20,29 +22,22 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a7e8ffd7-8a6a-4fd2-a944-95a98cabadce" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7706112eg01b6g355ag04fbgd97fe03e9b85" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DnD5R_Pact_HandCrossbow);UnlockSpell(Shout_DnD5R_Pact_HeavyCrossbow);UnlockSpell(Shout_DnD5R_Pact_LightCrossbow);UnlockSpell(Shout_DnD5R_Pact_Longbow);UnlockSpell(Shout_DnD5R_Pact_Shortbow);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
         <field name="Name" type="NameTableFieldDefinition" value="_Passive_DnD5R_PactOfTheBlade_DamageToggle" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="DnD5R_PactOfTheBladeDamage" />
-        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7617ef13-3b51-4850-b75d-4be7dedc47a4" />
-        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Radiant" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_RAD,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
-        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_RAD);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -51,8 +46,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Necrotic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_NEC,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
-        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_NEC);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_NEC,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_NEC);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02523af0g61cege769g5966g5e4fb8eeafaf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96c43309g5748gc5a5gc1feg66a033d65700" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -61,8 +58,72 @@
         <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Psychic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_PSY,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
-        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_PSY);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand,STATUS_PACTWEAPON_DAMAGE,100,-1);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_PSY,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_PSY);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc0fb883g4d6fg10aag3735ged2f3857e77e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf196335egf95bg286dg8989gfcfaac6c7197" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7617ef13-3b51-4850-b75d-4be7dedc47a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_PactOfTheBlade_DamageToggle_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,STATUS_PACTWEAPON_RAD,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,STATUS_PACTWEAPON_RAD);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb9c7e03g9a3cgb8acg80e4g573cc3e4bfc6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c9fc317-35b7-4b08-879c-34afbb56199b" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b5db664-8891-401f-b50b-eaa424bd3ab8" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="148b1b0d-5b68-47f8-a336-88d5a8c4c4e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_ThirstingBlade" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and HasPactWeapon(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and HasPactWeapon(context.Target)) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and HasPassive('PactOfTheBlade',context.Source) and not HasPassive('DevouringBlade',context.Source)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE, 100, 1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2cc07ff2g7f67gadceg3458gba8328517492" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThirstingBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6652b46-7134-4986-a0a9-8eeb61148be8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h989d8b8cg2b3egcd26g37c2gc521249be444" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22daa3ed-9f1c-4e47-aa4b-6b43bf282492" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_DevouringBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01832daf-a490-4334-9354-05b5afb16868" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9b8ae38g53d8g1a69gbbcaga4f14cce7d02" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87d198dcgc19fgbb73g90d1g20444c9a0c2c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThirstingBlade" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_2_Q')) and HasPassive('PactOfTheBlade',context.Source) and HasPassive('ThirstingBlade_Blade', context.Source) and HasPactWeapon(context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="860972fa-757f-4db6-991f-d7dc7c4d8593" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Lifedrinker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f7569bgee2eg618bg0063gdaecba518fb0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc430d1ccgc9c6gc6fag9239g2507529e974f" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(CharismaModifier,Necrotic)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and IsMeleeWeaponAttack() and HasPactWeapon()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(CharismaModifier,Necrotic,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Lifedrinker" />
       </fields>
     </stat_object>
   </stat_objects>

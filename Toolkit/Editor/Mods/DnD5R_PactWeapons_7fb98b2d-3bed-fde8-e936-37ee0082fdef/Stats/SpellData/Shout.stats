@@ -414,6 +414,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_MeleeMH;Shout_DnD5R_PactOfTheBlade_Bind_RangedMH;Shout_DnD5R_PactOfTheBlade_Bind_MeleeOH;Shout_DnD5R_PactOfTheBlade_Bind_RangedOH;" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Unarmed()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -425,7 +426,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h998ba25agb755g879egc8a6g30d69a805878" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -437,7 +438,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Target_MainHandAttack" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff7e4e27gca1fg59eag3a64g202d6bce31ce" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0926d6c1g6825ga2b7g97b9g888500540af1" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Melee',false,true,context.Source) and not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
@@ -450,7 +451,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68a3c4cbg4f27ga30dg8db9gaf454c36303f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac083d20g628cg20f2gfb57g35b4f088eda4" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Melee',true,true,context.Source) and not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
@@ -463,7 +464,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Ammunition',false,true,context.Source) and not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
@@ -475,7 +476,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100, -1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="2" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Ammunition',true,true,context.Source) and not HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))" />
         <field name="Icon" type="StringTableFieldDefinition" value="Projectile_OffHandAttack" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>

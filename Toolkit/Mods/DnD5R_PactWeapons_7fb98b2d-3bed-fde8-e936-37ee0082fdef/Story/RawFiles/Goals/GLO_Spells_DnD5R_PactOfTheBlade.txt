@@ -3,25 +3,39 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
-//REGION DnD5R PactOfTheBlade Melee
+// DnD5R PactOfTheBlade Removing Summoned Weapons when binding other weapons
 
+//REGION DnD5R_PactOfTheBlade_Bind_MeleeMH
 IF
-CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind",_,_,_)
+CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind_MeleeMH",_,_,_)
 AND
 GetItemByTagInInventory("PACT_OF_THE_BLADE_be460271-537a-4443-a9b5-6c6c6a005ab3",_Caster,_Item)
 THEN
 RequestDelete(_Item);
-
 //END_REGION
-//REGION DnD5R PactOfTheBlade Ranged
-
+//REGION DnD5R_PactOfTheBlade_Bind_MeleeOH
 IF
-CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind_Ranged",_,_,_)
+CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind_MeleeOH",_,_,_)
 AND
 GetItemByTagInInventory("PACT_OF_THE_BLADE_be460271-537a-4443-a9b5-6c6c6a005ab3",_Caster,_Item)
 THEN
 RequestDelete(_Item);
-
+//END_REGION
+//REGION DnD5R_PactOfTheBlade_Bind_RangedMH
+IF
+CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind_RangedMH",_,_,_)
+AND
+GetItemByTagInInventory("PACT_OF_THE_BLADE_be460271-537a-4443-a9b5-6c6c6a005ab3",_Caster,_Item)
+THEN
+RequestDelete(_Item);
+//END_REGION
+//REGION DnD5R_PactOfTheBlade_Bind_RangedOH
+IF
+CastedSpell(_Caster,"Shout_DnD5R_PactOfTheBlade_Bind_RangedOH",_,_,_)
+AND
+GetItemByTagInInventory("PACT_OF_THE_BLADE_be460271-537a-4443-a9b5-6c6c6a005ab3",_Caster,_Item)
+THEN
+RequestDelete(_Item);
 //END_REGION
 EXITSECTION
 
