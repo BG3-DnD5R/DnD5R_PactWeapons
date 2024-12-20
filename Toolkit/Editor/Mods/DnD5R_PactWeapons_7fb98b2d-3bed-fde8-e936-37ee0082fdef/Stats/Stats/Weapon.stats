@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
   <stat_objects>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
         <field name="Name" type="NameTableFieldDefinition" value="_WPN_DnD5R_PactWeapon" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDB7093" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4b2e2c7-cb21-4ee8-866a-81db14090703" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_PactWeapon_Melee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Magical;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -294,6 +303,19 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d9cb8268-f7ca-488e-af82-14ccb2bed597" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Warpicks)" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDB7093" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb642693-0159-4bb9-bdcf-2339bda27066" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_PactWeapon_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
+        <field name="Damage Range" type="IntegerTableFieldDefinition" value="3000" />
+        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
+        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

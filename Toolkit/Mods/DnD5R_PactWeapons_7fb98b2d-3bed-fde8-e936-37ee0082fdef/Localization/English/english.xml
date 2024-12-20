@@ -183,7 +183,7 @@
   <content contentuid="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1">Bind to your main hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
   <content contentuid="h998ba25agb755g879egc8a6g30d69a805878" version="1">Bind Pact Weapon: </content>
   <content contentuid="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="2">Damage Pact Weapon</content>
-  <content contentuid="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="2">Whenever you attack with your pact weapon, you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.</content>
+  <content contentuid="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="3">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.</content>
   <content contentuid="h88dd6c3cg8ff9gf269g4596gc9c8f47b2ec3" version="1">Pact Weapon</content>
   <content contentuid="hec56f4a0gefd8g13fcg0d41gcd82ad06ec5a" version="1">The warlock bound to this weapon is always &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with it. The weapon's damage is magical.</content>
   <content contentuid="h39e9893ag88ebg20edgaf1bgc75add60fac0" version="2">Damage Override</content>
@@ -224,17 +224,17 @@
   <content contentuid="hdf89183dgc497ga7d6g6801g533b3dcbcae3" version="1">Pact Weapon</content>
   <content contentuid="hdb75636bg0e79g329dgd017g12f13fa05c39" version="1">Placeholder</content>
   <content contentuid="hdb9c7e03g9a3cgb8acg80e4g573cc3e4bfc6" version="1">Radiant Pact Weapon</content>
-  <content contentuid="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="1">Whenever you attack with your pact weapon, you can cause the weapon to deal Radiant damage.</content>
+  <content contentuid="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="2">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Radiant damage.</content>
   <content contentuid="h02523af0g61cege769g5966g5e4fb8eeafaf" version="1">Nectrotic Pact Weapon</content>
-  <content contentuid="h96c43309g5748gc5a5gc1feg66a033d65700" version="1">Whenever you attack with your pact weapon, you can cause the weapon to deal Necrotic damage.</content>
+  <content contentuid="h96c43309g5748gc5a5gc1feg66a033d65700" version="2">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Necrotic damage.</content>
   <content contentuid="hbc0fb883g4d6fg10aag3735ged2f3857e77e" version="1">Psychic Pact Weapon</content>
-  <content contentuid="hf196335egf95bg286dg8989gfcfaac6c7197" version="1">Whenever you attack with your pact weapon, you can cause the weapon to deal Psychic damage.</content>
+  <content contentuid="hf196335egf95bg286dg8989gfcfaac6c7197" version="2">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Psychic damage.</content>
   <content contentuid="h94d96fa7g13c7g0e80gde3cg91bb58af8d46" version="1">%%% EMPTY</content>
   <content contentuid="h5d975f41g3796g0483ge7ebg2975419545a8" version="1">%%% EMPTY</content>
   <content contentuid="h2cc07ff2g7f67gadceg3458gba8328517492" version="1">Thirsting Blade</content>
-  <content contentuid="h989d8b8cg2b3egcd26g37c2gc521249be444" version="1">Can make an additional free attack after making a pact weapon attack. If you gain the Extra Attack feature from more than one class, they don't add together.</content>
+  <content contentuid="h989d8b8cg2b3egcd26g37c2gc521249be444" version="2">Can make an additional free attack after making a &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt; attack. If you gain the Extra Attack feature from more than one class, they don't add together.</content>
   <content contentuid="h21f7569bgee2eg618bg0063gdaecba518fb0" version="1">Lifedrinker</content>
-  <content contentuid="hc430d1ccgc9c6gc6fag9239g2507529e974f" version="1">Attacks made with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt; deal additional necrotic damage equal to your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier.</content>
+  <content contentuid="hc430d1ccgc9c6gc6fag9239g2507529e974f" version="5">Once per turn, an attack made with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt; deals additional damage equal to your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier. In addition, you gain [2] plus your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; modifier.</content>
   <content contentuid="hf9b8ae38g53d8g1a69gbbcaga4f14cce7d02" version="1">Devouring Blade</content>
-  <content contentuid="h87d198dcgc19fgbb73g90d1g20444c9a0c2c" version="1">You can make two additional attacks after attacking with your pact weapon.</content>
+  <content contentuid="h87d198dcgc19fgbb73g90d1g20444c9a0c2c" version="2">You can make two additional attacks after attacking with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;.</content>
 </contentList>

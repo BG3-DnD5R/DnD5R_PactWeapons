@@ -318,6 +318,10 @@ data "Icon" "Shout_DnD5R_Pact_Shortbow"
 data "DisplayName" "hf3ce06b8gce91ga6dbg17adgce024c725c78;1"
 data "Description" "h9d234695g6570g54fcg0d22gea3fe4417294;1"
 
+new entry "Shout__DnD5R_Warlock_PactWeapon_Bind"
+type "SpellData"
+data "SpellType" "Shout"
+
 new entry "Shout_DnD5R_PactOfTheBlade_Bind"
 type "SpellData"
 data "SpellType" "Shout"
