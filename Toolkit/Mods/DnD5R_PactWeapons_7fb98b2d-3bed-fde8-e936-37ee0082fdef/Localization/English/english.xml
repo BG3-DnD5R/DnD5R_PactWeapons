@@ -212,7 +212,7 @@
   <content contentuid="hecfd7f28g6535gfcedg3cb7g41d947be0a43" version="1">Placeholder</content>
   <content contentuid="h7ae5ed1fg07d1ge18bgaaf8gda8930d87db8" version="1">Damage Override</content>
   <content contentuid="h1867c328gfb52g4e83gd634g946454ac579f" version="1">Placeholder</content>
-  <content contentuid="h289c83b1g38e8g430egff66g558ad108d8f1" version="1">Pact Weapon</content>
+  <content contentuid="h289c83b1g38e8g430egff66g558ad108d8f1" version="2">Pact Weapon: Psychic Damage</content>
   <content contentuid="h6233721ag6382g9f22g95a4g6527eb5bc1d6" version="1">Placeholder</content>
   <content contentuid="h5c575a3dgafd7gdfbdgff78gb645b718d4a7" version="2">Pact Weapon: Necrotic Damage</content>
   <content contentuid="h089f38fbg8cf5g8427gb787g6c7a9674a2fa" version="1">Placeholder</content>
@@ -221,7 +221,7 @@
   <content contentuid="h9cc1b492gaa4bg7885g6e76g74dc0352ade6" version="1">Damage Override</content>
   <content contentuid="h82508f09gc057g5e8fg453ag8ee3f3c32ff4" version="1">Placeholder</content>
   <content contentuid="hd93333d8gc0bdg5fe1g4aafg65e9c61c210b" version="1">Pact Weapon: Damage Override</content>
-  <content contentuid="hdf89183dgc497ga7d6g6801g533b3dcbcae3" version="1">Pact Weapon</content>
+  <content contentuid="hdf89183dgc497ga7d6g6801g533b3dcbcae3" version="2">Pact Weapon: Radiant Damage</content>
   <content contentuid="hdb75636bg0e79g329dgd017g12f13fa05c39" version="1">Placeholder</content>
   <content contentuid="hdb9c7e03g9a3cgb8acg80e4g573cc3e4bfc6" version="1">Radiant Pact Weapon</content>
   <content contentuid="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="2">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Radiant damage.</content>

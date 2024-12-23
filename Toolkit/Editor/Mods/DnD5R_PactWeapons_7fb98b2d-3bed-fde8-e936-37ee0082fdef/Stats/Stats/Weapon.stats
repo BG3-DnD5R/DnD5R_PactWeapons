@@ -13,7 +13,7 @@
     <stat_object color="#FFDB7093" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f4b2e2c7-cb21-4ee8-866a-81db14090703" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_PactWeapon_Melee" />
+        <field name="Name" type="NameTableFieldDefinition" value="_WPN_DnD5R_PactWeapon_Melee" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Magical;Dippable" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
@@ -308,7 +308,7 @@
     <stat_object color="#FFDB7093" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cb642693-0159-4bb9-bdcf-2339bda27066" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_DnD5R_PactWeapon_Ranged" />
+        <field name="Name" type="NameTableFieldDefinition" value="_WPN_DnD5R_PactWeapon_Ranged" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3bbfc417-0674-4398-a5b8-09e92a336823" />
         <field name="Damage Range" type="IntegerTableFieldDefinition" value="3000" />
         <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
