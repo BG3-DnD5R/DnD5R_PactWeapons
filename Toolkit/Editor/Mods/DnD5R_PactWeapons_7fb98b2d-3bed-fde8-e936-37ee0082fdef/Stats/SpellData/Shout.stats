@@ -441,7 +441,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_MeleeMH" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand, STATUS_DND5R_PACTBLADE,100, -1)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Target_MainHandAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_MeleeMH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff7e4e27gca1fg59eag3a64g202d6bce31ce" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0926d6c1g6825ga2b7g97b9g888500540af1" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Melee',false,true,context.Source) and not HasStatus('STATUS_DND5R_PACTBLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))" />
@@ -454,7 +454,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_MeleeOH" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand, STATUS_DND5R_PACTBLADE,100, -1)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_MeleeOH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68a3c4cbg4f27ga30dg8db9gaf454c36303f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac083d20g628cg20f2gfb57g35b4f088eda4" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Melee',true,true,context.Source) and not HasStatus('STATUS_DND5R_PACTBLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))" />
@@ -467,7 +467,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_PactOfTheBlade_Bind_RangedMH" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ce970128-e577-48b9-aa5d-17f8aeea5a35" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(RangedMainHand, STATUS_DND5R_PACTBLADE,100, -1)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_RangedMH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Ammunition',false,true,context.Source) and not HasStatus('STATUS_DND5R_PACTBLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))" />
@@ -483,7 +483,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="2" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Ammunition',true,true,context.Source) and not HasStatus('STATUS_DND5R_PACTBLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_OffHandAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Shout_DnD5R_PactOfTheBlade_Bind_RangedOH" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
