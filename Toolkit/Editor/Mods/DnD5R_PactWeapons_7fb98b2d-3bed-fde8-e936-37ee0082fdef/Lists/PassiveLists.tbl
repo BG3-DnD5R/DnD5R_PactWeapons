@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1c3d56f-99f2-4a78-8125-fa3e73bb02e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8adab8f9-e360-4f79-851b-2c7e050ca23d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="MireTheMind,SignOfIllOmen,Passive_DnD5R_ThirstingBlade,AgonizingBlast,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,Passive_DnD5R_ThirstingBlade,AgonizingBlast,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Passive_DnD5R_Lifedrinker,MinionsOfChaos,OtherworldlyLeap,WhispersOfTheGrave,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,Passive_DnD5R_ThirstingBlade,AgonizingBlast,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Passive_DnD5R_DevouringBlade,Passive_DnD5R_Lifedrinker,MinionsOfChaos,OtherworldlyLeap,WhispersOfTheGrave,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,Passive_DnD5R_ThirstingBlade,AgonizingBlast,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ArmorOfShadows,PactOfTheChain,Passive_DnD5R_PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
