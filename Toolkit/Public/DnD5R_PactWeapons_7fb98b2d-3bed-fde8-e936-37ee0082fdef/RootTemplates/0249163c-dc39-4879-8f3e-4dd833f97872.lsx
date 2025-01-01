@@ -12,14 +12,14 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="cd50dd17-b1ed-4e8d-8825-ffc1e3cc19e0" />
 					<attribute id="VisualTemplate" type="FixedString" value="7c2a4f10-2647-b640-7046-a30272b3ede5" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="f220261c-8759-488b-7b51-6883d9117d51" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h7fde448bgaa20g187agd172gb3abba171771" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7fde448bgaa20g187agd172gb3abba171771" version="6" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_DEC_HAG_Totem_Props_Dagger_A" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Sickle" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Sickle" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="h12fb21cag451bg1ae3g059fgfe6869d2ebd9" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h12fb21cag451bg1ae3g059fgfe6869d2ebd9" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="2b95bdd2-317f-41c1-9ec0-5fa08b888b0a" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
@@ -27,6 +27,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
 								</node>
 							</children>
 						</node>

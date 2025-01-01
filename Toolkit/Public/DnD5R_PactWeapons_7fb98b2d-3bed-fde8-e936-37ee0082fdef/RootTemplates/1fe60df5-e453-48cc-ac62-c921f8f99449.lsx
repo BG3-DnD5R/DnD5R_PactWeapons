@@ -12,14 +12,14 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="2f5c7142-c8d7-4f6a-98b9-47a3ed00e1c5" />
 					<attribute id="VisualTemplate" type="FixedString" value="d7616e8a-0957-f98a-42cc-b79d71760ee9" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="9f6ae6f9-d1d7-e438-e47a-8f7cce95d488" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h26b95ec6g15d2g302dg3527g9717dc086977" version="5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h26b95ec6g15d2g302dg3527g9717dc086977" version="7" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_WoodcutterAxe_Shadow_Curse_A" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Battleaxe" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Battleaxe" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="hf19c750fg3e71g69efg038fg8219e4d02704" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="hf19c750fg3e71g69efg038fg8219e4d02704" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="896f8a20-7dda-4bff-b726-08c3dacccc7b" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
@@ -27,6 +27,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
 								</node>
 							</children>
 						</node>

@@ -12,14 +12,14 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="344ac552-11ff-4150-8bb4-7eed8fb78588" />
 					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="055d2b80-e866-e75c-358f-0657933137d9" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hbcb55277g5cf0gcf08g9962ga44b2954215e" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbcb55277g5cf0gcf08g9962ga44b2954215e" version="6" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Longsword" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Longsword" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="hd5a65e79gc9bfg50b1ga072g7eeefe40493b" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="hd5a65e79gc9bfg50b1ga072g7eeefe40493b" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="f85002a2-8e0e-4a49-aa0f-f52e987d3a3a" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
@@ -27,6 +27,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
 								</node>
 							</children>
 						</node>

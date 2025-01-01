@@ -12,14 +12,14 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="ed2339ed-db72-4753-b467-b257bb02a2fc" />
 					<attribute id="VisualTemplate" type="FixedString" value="27dda1a8-bd40-86e3-d4c8-bc68d78d0c11" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="98b789a2-64d7-36fb-1a31-3d03a6df8758" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h82de40dcgee4egab3agc36cg4ac403648184" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h82de40dcgee4egab3agc36cg4ac403648184" version="6" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Morningstar_A_2" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Morningstar" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Morningstar" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="h8cc476cag9095g4d3fg7437g16dfa0447e10" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h8cc476cag9095g4d3fg7437g16dfa0447e10" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="cef94292-4854-4085-b343-5c041992234d" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
@@ -27,6 +27,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
 								</node>
 							</children>
 						</node>

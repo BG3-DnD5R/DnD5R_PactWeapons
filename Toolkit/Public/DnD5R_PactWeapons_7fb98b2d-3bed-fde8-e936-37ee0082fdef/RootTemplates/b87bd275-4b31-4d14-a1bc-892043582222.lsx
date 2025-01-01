@@ -12,18 +12,25 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="b789aedc-c010-47b0-9801-d9aacdce4c56" />
 					<attribute id="VisualTemplate" type="FixedString" value="8a96b47e-bf3f-8051-0fa6-1fcbfb00f220" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="7c02df22-38e7-b296-547e-6b448a685ae7" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h64ee6ed7gbe9cg779fgd9a5g30c52d1f1a3d" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h64ee6ed7gbe9cg779fgd9a5g30c52d1f1a3d" version="7" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_DRYAD_Staff_A" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Quarterstaff" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Quarterstaff" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
 					<attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
-					<attribute id="Description" type="TranslatedString" handle="h8664a3a2g8c9dg850fg0ed2g342b976d7376" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h8664a3a2g8c9dg850fg0ed2g342b976d7376" version="5" />
 					<attribute id="EquipmentTypeID" type="guid" value="b428632e-3137-47aa-ae8f-ddff6fc27cc8" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
+								</node>
+							</children>
+						</node>
 						<node id="Bounds">
 							<children>
 								<node id="Bound">

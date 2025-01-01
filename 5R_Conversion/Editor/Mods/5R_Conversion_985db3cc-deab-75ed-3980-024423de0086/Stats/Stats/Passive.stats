@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7e8ffd7-8a6a-4fd2-a944-95a98cabadce" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2abb2e7gbf1egad8fg5615g987d99633777" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b424ee5g45e9gfab9g7d5dg8972e9754f9c" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PactOfTheBlade);UnlockSpell(Shout_PactOfTheBlade_Bind)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc6bccb41g1a5fge039g91dcgcde85ac08636" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('PACT_BLADE_DAMAGE')):ApplyStatus(PACT_BLADE_DAMAGE,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec15a534-b7a1-4eed-b430-76f59c4c2482" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_DamageToggle_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Pact_Necrotic" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,PACT_BLADE_NEC,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PACT_BLADE_NEC);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02523af0g61cege769g5966g5e4fb8eeafaf" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96c43309g5748gc5a5gc1feg66a033d65700" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7a4f401-5efa-4c39-be4d-9ecba0612976" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_DamageToggle_Psychic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Pact_Psychic" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,PACT_BLADE_PSY,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PACT_BLADE_PSY);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc0fb883g4d6fg10aag3735ged2f3857e77e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf196335egf95bg286dg8989gfcfaac6c7197" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7617ef13-3b51-4850-b75d-4be7dedc47a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_DamageToggle_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8755f32d-0c8e-4c64-a973-3851c68af593" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Pact_Radiant" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,PACT_BLADE_RAD,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PACT_BLADE_RAD);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source))):ApplyEquipmentStatus(RangedMainHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):ApplyEquipmentStatus(MeleeOffHand, PACT_BLADE,100,-1);IF(HasStatus('PACT_BLADE',GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand,context.Source))):ApplyEquipmentStatus(RangedOffHand, PACT_BLADE,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb9c7e03g9a3cgb8acg80e4g573cc3e4bfc6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="860972fa-757f-4db6-991f-d7dc7c4d8593" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lifedrinker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f7569bgee2eg618bg0063gdaecba518fb0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc430d1ccgc9c6gc6fag9239g2507529e974f" version="6" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;DisplayBoostInTooltip;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(CharismaModifier);RegainHitPoints(1d6)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Lifedrinker" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('PACT_BLADE',GetAttackWeapon())):CharacterWeaponDamage(CharismaModifier);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('PACT_BLADE',GetAttackWeapon()) and TotalAttackDamageDoneGreaterThan(0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,1d6+ConstitutionModifier)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

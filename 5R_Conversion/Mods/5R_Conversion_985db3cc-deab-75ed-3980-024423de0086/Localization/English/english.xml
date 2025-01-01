@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hd5bdc63bg7c77g4a51g4796g5ca725b559d6" version="1">Pact of the Blade</content>
+  <content contentuid="he85009b2g9ad9g3566g6249gca0665eb1bc0" version="1">Summon a weapon to your hand. It uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;, and its damage is magical.</content>
+  <content contentuid="hb70ab387g643dg7bf9g6b2cg3d183bd0ace6" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with the weapon. You can only have one at a time. The weapon disappears if you are more than [1] away from it for more than 10 rounds.</content>
+  <content contentuid="h06613667gef81ga837g9a68gbfd31df1a143" version="1">Pact of the Blade: Battleaxe</content>
+  <content contentuid="h1ecacf08gbfebgab65g56fage2bdb1206291" version="1">Summon a battleaxe.</content>
+  <content contentuid="h5979eff2g912ag8afag0ca7g11d08a237a3e" version="1">Pact of the Blade: Glaive</content>
+  <content contentuid="h7b2b901eg0fbega02bg96bagefd6a624cd65" version="1">Summon a glaive.</content>
+  <content contentuid="h97d11577gc383g2984gce0fgb9a74ed65895" version="1">Pact of the Blade: Greatsword</content>
+  <content contentuid="he929864eg2fa7gb226g1ebbg3a962b29a460" version="1">Summon a greatsword.</content>
+  <content contentuid="h97bc2e86gbf0eg7f46gc804g8aa177425e5b" version="1">Pact of the Blade: Rapier</content>
+  <content contentuid="h154abaa2g56f3g77ccga437g34fd94514ea7" version="1">Summon a rapier.</content>
+  <content contentuid="hbd88a0ddg81dbg1522g7b31g64475c97f2ff" version="1">Pact of the Blade: Trident</content>
+  <content contentuid="hcfda4d39g0f1cg57aeg9741g5e8cf190855e" version="1">Summon a trident.</content>
+  <content contentuid="hda695700g1d4dg0f9egd6f6gb30096334d8b" version="1">Pact of the Blade: Warhammer</content>
+  <content contentuid="h7a1b5a52g8e0cgbe37gf2ddgbf08ce1b9aff" version="1">Summon a warhammer.</content>
+  <content contentuid="ha2bc4e8cg2bf2g49abg3ab1g338d6cbf2a38" version="3">Bind Pact Weapon</content>
+  <content contentuid="hdab28724g3c54g5a37ge538gb0e733d0e3f5" version="2">Bind to your weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h15c3c18dg9eafgeb83gea2ag6ce626c76dfb" version="1">You can only have 1 pact weapon at any time. &lt;br&gt;&lt;br&gt;The weapon returns to its previous state if you are more than [1] away from it for more than 10 rounds.</content>
+  <content contentuid="hf2223ba6g098bgafa3ge8a7ge51cf94931e8" version="1">If you summoned it, it disappears. If you bound a weapon to you, it returns to its previous state.</content>
+  <content contentuid="hf7bba40bgce34g5f7eg9a5cgedc5740b6d1c" version="8">Pactbound Club</content>
+  <content contentuid="he519e6fbgc04agef25gc33dgca5e2e116fd8" version="6">Pactbound Dagger</content>
+  <content contentuid="h1e47bc77gd95dgbd3dg6183gc8e937edded5" version="6">Pactbound Flail</content>
+  <content contentuid="h26b95ec6g15d2g302dg3527g9717dc086977" version="7">Pactbound Battleaxe</content>
+  <content contentuid="h52f52422g04e5g05f7g8ba1ge68b8ee0d3db" version="6">Pactbound Greataxe</content>
+  <content contentuid="hdb20a399g434dg1c59g9743g13310a44989c" version="6">Pactbound Greatclub</content>
+  <content contentuid="he49348adg279dg5598ga2b1gb7b4f7c7a4c7" version="6">Pactbound Greatsword</content>
+  <content contentuid="h24319ab5g2991gb6ceg2b48gcdc5b9b86798" version="6">Pactbound Glaive</content>
+  <content contentuid="hc4f9bd54gfbd7g9e53g5607g89fbe599240c" version="5">Pactbound Halberd</content>
+  <content contentuid="hab6b6651g209cga1dagd1b1g6d8edf8effae" version="8">Pactbound Handaxe</content>
+  <content contentuid="h67eabde9g5eb7gb4c9g274bgc90b6bbcd9a7" version="6">Pactbound Hand Crossbow</content>
+  <content contentuid="h4f58ea06gef7cgd0d1gec8cgd2ae6b69aa63" version="5">Pactbound Javelin</content>
+  <content contentuid="h18106ab8gb3a6gd299g9a28gb87d2f9492cd" version="6">Pactbound Light Crossbow</content>
+  <content contentuid="h68bd257ag6c69g82e5ga64dgfe85b932f75c" version="6">Pactbound Light Hammer</content>
+  <content contentuid="hb3eaaff8g0e28g9127g1bf5gdb1d6a4a5aa3" version="6">Pactbound Longbow</content>
+  <content contentuid="hbcb55277g5cf0gcf08g9962ga44b2954215e" version="6">Pactbound Longsword</content>
+  <content contentuid="h5e6e9cf7g2cd8g2528gd070g4f0cc3aabd7b" version="6">Pactbound Heavy Crossbow</content>
+  <content contentuid="h5a1637b9g902fgd07fg3026g97cb34abf566" version="6">Pactbound Shortbow</content>
+  <content contentuid="h2127d84dg35c3g0521g35eag0b2837097404" version="6">Pactbound Shortsword</content>
+  <content contentuid="h3148cbc5g173dgd0c0g77b9g54969de686b7" version="7">Pactbound Mace</content>
+  <content contentuid="h95596adfg7984gb2bbg9cbfg74d8231a921a" version="7">Pactbound Maul</content>
+  <content contentuid="h82de40dcgee4egab3agc36cg4ac403648184" version="6">Pactbound Morningstar</content>
+  <content contentuid="hf8977bdfgaeafg2426ge11cg2c8a2ecf1878" version="6">Pactbound Pike</content>
+  <content contentuid="h64ee6ed7gbe9cg779fgd9a5g30c52d1f1a3d" version="7">Pactbound Quarterstaff</content>
+  <content contentuid="h2fe6ea2dg35e1g30ceg63c0g4747681ea997" version="6">Pactbound Rapier</content>
+  <content contentuid="h0e9069e7g962bgf1a6gd02cg6ee0e875fcc9" version="6">Pactbound Scimitar</content>
+  <content contentuid="h7fde448bgaa20g187agd172gb3abba171771" version="6">Pactbound Sickle</content>
+  <content contentuid="h9ded4585g9aa5g1138gbef3g197ba55738e0" version="6">Pactbound Spear</content>
+  <content contentuid="hdd61dd3fgc84ag9aa1g7d23g290f57b314ec" version="6">Pactbound Trident</content>
+  <content contentuid="h39d38c5ag8629g4a3cgc9e2g42542b0e0608" version="6">Pactbound Warhammer</content>
+  <content contentuid="hd4e299d7g35b9g0b77gbe47g50a67035a384" version="5">Pactbound War Pick</content>
+  <content contentuid="h34c7cef1g7fa7g6054g9348g80c257344423" version="3">A summonable warpick granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hedf9c71bgfdefg0398gafbbg6a3c42ff3382" version="4">A summonable warhammer granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hc9021153g3d47g7c04g532ege35d6ca405fc" version="4">A summonable trident granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h74da3826ga142g52dbg1b6cgcc2eb2753935" version="4">A summonable spear granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h12fb21cag451bg1ae3g059fgfe6869d2ebd9" version="4">A summonable sickle granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hbe1f0690g9bc9gb272g13fag0e92096cbabf" version="4">A summonable shortsword granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="ha5479a45g398bg6607g308cg88a15794e4de" version="4">A summonable shortbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hdfd70a8dg994egc7ebg2779gac9946a817b0" version="4">A summonable scimitar granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h90343602g66dbg2a84g4e4dg056a79b3a7a2" version="4">A summonable rapier granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h8664a3a2g8c9dg850fg0ed2g342b976d7376" version="5">A summonable quarterstaff granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hf06fc08eg7b4dg87dfga3d9g159f07f50365" version="4">A summonable pike granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h8cc476cag9095g4d3fg7437g16dfa0447e10" version="4">A summonable morningstar granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hdd4fee16g2ea3gca3dg9a61ge55eb50e0a22" version="5">A summonable maul granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hfc367ecdg4a50g2ee2gdaceg9b7303ba8f17" version="5">A summonable mace granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hd5a65e79gc9bfg50b1ga072g7eeefe40493b" version="4">A summonable longsword granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h078eda54g293bgfc83gaff8g0da567f1cc14" version="4">A summonable longbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h79ecda77g0dcbgc35bgf972ge156af18f45a" version="4">A summonable light hammer granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h0b2d299bgb26age3c8g720bgf8ea315369f2" version="4">A summonable light crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h89a13885g8c05g0eb9g7a2dg69532f8c1285" version="3">A summonable javelin granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h9cb6bd4agc428g45begaf47g38a859e56dd5" version="4">A summonable heavy crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hae0137ceg260ag6abag1187ga4fb18de9031" version="4">A summonable hand crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h1b754c22gb6afgc20fgf357g1ce98f2ec4ba" version="3">A summonable halberd granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h25d4fe9fg7006g5ebag4e9ag1a8093d2b0c7" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h5b11ce0bg6404gbf37g6f8ag919719a89d89" version="4">A summonable greatclub granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h89b231bfg4478g13f4geecdgc2e99e271a39" version="4">A summonable greataxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h346c1484g2327gd1a5g0199gec56c7ca229f" version="4">A summonable glaive granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h5f1aa0d0g5f32g1523gfbedg8dda0909034a" version="4">A summonable flail granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hc495cb4dg43dag9c04gc688g6c17cad483c9" version="4">A summonable dagger granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hf19c750fg3e71g69efg038fg8219e4d02704" version="4">A summonable battleaxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hcb8339bbg72e9gbb07g2a79g5a604eea9fd2" version="3">A summonable club granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hbdd35565geeafgc882g9300g262d82f5e195" version="6">A summonable handaxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h12d64328g6de4g24dbg2528ga8242866c7cc" version="1">Pact of the Blade: Club</content>
+  <content contentuid="h1dcc2971g8a7ag774cg0f7fgf7ee044ae184" version="1">Summon a club.</content>
+  <content contentuid="hd61e081dgc5aegb98bg0117g0534e2005ab2" version="1">Pact of the Blade: Dagger</content>
+  <content contentuid="hb559e8d9g7d5dgfd00g68d2g35b65092ee5a" version="1">Summon a dagger.</content>
+  <content contentuid="h74343d78g1d20g9b03g00a5g5aef1963a991" version="1">Pact of the Blade: Flail</content>
+  <content contentuid="h6cd2f0ecg9944ga994g062bgf24603e081cf" version="1">Summon a flail.</content>
+  <content contentuid="hbe872f7cg94afgdea1g0c1bg52dd706e2870" version="1">Pact of the Blade: Greataxe</content>
+  <content contentuid="hfa019c07g6acfgb4b2g7761g7b751913e1ec" version="1">Summon a greataxe.</content>
+  <content contentuid="h1899b702gb546g58ecgc0b0g4f6bbf9efbe4" version="1">Pact of the Blade: Greatclub</content>
+  <content contentuid="hbc4de848g75f5g4271g6ea3g43d9066516ba" version="1">Summon a greatclub</content>
+  <content contentuid="hf2a45b6bg07d1g4715gf3d2gd93c6c3bd6f6" version="1">Pact of the Blade: Halberd</content>
+  <content contentuid="h6878a87fg9de6ge240g4fb1gbb131e379f71" version="1">Summon a halberd.</content>
+  <content contentuid="h7b7e39dbg6743g8741g328agd95f68462412" version="1">Pact of the Blade: Handaxe</content>
+  <content contentuid="hea816580geee7g55c6gb655g7ef3d73f346b" version="1">Summon a handaxe.</content>
+  <content contentuid="hc9a1cc68g4446g7d64g0d53gddf823fb0b16" version="1">Pact of the Blade: Javelin</content>
+  <content contentuid="habd92c60g0a02gf039g33d0g29ddb38182d2" version="1">Summon a javelin.</content>
+  <content contentuid="h3e334ac0g96e7g5982g6376g364903350249" version="1">Pact of the Blade: Light Hammer</content>
+  <content contentuid="hed976bcfg409fg8fc0gff9bga08e392b40c0" version="1">Summon a light hammer.</content>
+  <content contentuid="h809f0823g04b6g417cg0a29g414af0b9f4e1" version="1">Pact of the Blade: Longsword</content>
+  <content contentuid="h25e138b9g4164g4e7eg6025g532a54125e42" version="1">Summon a longsword.</content>
+  <content contentuid="h486d8c12ge329g809fgdb77gb338fb4d730e" version="1">Pact of the Blade: Mace</content>
+  <content contentuid="hec903cfdgebbcgde99gdc6fg0019867193c4" version="1">Summon a mace.</content>
+  <content contentuid="hce2b1332g7d6cgd2b0g875egf5928eb2e15f" version="1">Pact of the Blade: Maul</content>
+  <content contentuid="h0e4cfb6eg755bg9af1g9c33g96e0e0afd237" version="1">Summon a maul.</content>
+  <content contentuid="h871d3e52g99bbg164dg6372g91fa5209eba4" version="1">Pact of the Blade: Morningstar</content>
+  <content contentuid="h6d6413f9gbdf8g1e3agfeceg0fe91a499719" version="1">Summon a morningstar.</content>
+  <content contentuid="h503a6ffcgff46gd1c2g8f42g296cb4c62e59" version="1">Pact of the Blade: Pike</content>
+  <content contentuid="h335a6487g3dcegb113g6d1bgd5865a07ee63" version="1">Summon a pike.</content>
+  <content contentuid="h1d8101a5g3082gcdecg54f8g39352dc10505" version="1">Pact of the Blade: Quarterstaff</content>
+  <content contentuid="h3b6a585fg4fd1ge126g33b2g6060435f692f" version="1">Summon a quarterstaff.</content>
+  <content contentuid="he7569580g147bg4b0eg6464g0b7c27062073" version="1">Pact of the Blade: Scimitar</content>
+  <content contentuid="hb193bdeeg9466g9295g44ffgb34bb07850e5" version="1">Summon a scimitar.</content>
+  <content contentuid="h9680fe03gdc41gfdc9g0741gd3344b9fcdf7" version="1">Pact of the Blade: Shortsword</content>
+  <content contentuid="h17fc07ddg33dag93f5g1da9g46385eacac5f" version="1">Summon a shortsword.</content>
+  <content contentuid="h5a21cc27gae9fgfb1eg6d87g7307b673be51" version="1">Pact of the Blade: Sickle</content>
+  <content contentuid="hbdfcc625g9204g3772g7f5dge0e7c8f8cba7" version="1">Summon a sickle.</content>
+  <content contentuid="hc0839f56g02a4g8cd9g4f5ag4d5bc34af951" version="1">Pact of the Blade: Spear</content>
+  <content contentuid="h5886be7cg8ae1g512fg003eg5f838764de8f" version="1">Summon a spear.</content>
+  <content contentuid="h97a4e17bg4a3fge27bg7ca5g9b5f0cf108eb" version="1">Pact of the Blade: Warpick</content>
+  <content contentuid="h084c48a7gabdfgdff0g27b0g0ab8384aa013" version="1">Summon a warpick.</content>
+  <content contentuid="h7b90f972g1e5egd6bdg1be5g2c4894ff94c6" version="1">Pact of the Blade: Hand Crossbow</content>
+  <content contentuid="hc20f1320g75c4g7719gebfdgc7c4ff80f968" version="1">Summon a hand crossbow.</content>
+  <content contentuid="h329b3742g25d2gcca5g6f0bgf7cb891a8492" version="1">Pact of the Blade: Heavy Crossbow</content>
+  <content contentuid="h20a15f91gfd6agf514g6452g767420ccfcba" version="1">Summon a heavy crossbow.</content>
+  <content contentuid="h2e67e89cga764gb055ga24ag212da7e0f800" version="1">Pact of the Blade: Light Crossbow</content>
+  <content contentuid="h0d7c098ag668fgfa1dg810bg0c211354b6a0" version="1">Summon a light crossbow.</content>
+  <content contentuid="h66dd9b75g76a4g4ba4g3c25g59e052ca0289" version="1">Pact of the Blade: Longbow</content>
+  <content contentuid="hc36a2703g1f2ag970dg9b91gb3fc9df17e76" version="1">Summon a longbow.</content>
+  <content contentuid="hf3ce06b8gce91ga6dbg17adgce024c725c78" version="1">Pact of the Blade: Shortbow</content>
+  <content contentuid="h9d234695g6570g54fcg0d22gea3fe4417294" version="1">Summon a shortbow.</content>
+  <content contentuid="ha2abb2e7gbf1egad8fg5615g987d99633777" version="1">Pact of the Blade</content>
+  <content contentuid="h0b424ee5g45e9gfab9g7d5dg8972e9754f9c" version="1">You can &lt;LSTag Type="Spell" Tooltip="Shout_PactOfTheBlade"&gt;Summon&lt;/LSTag&gt; a pact weapon, or &lt;LSTag Type="Spell" Tooltip="Shout_PactOfTheBlade_Bind"&gt;Bind&lt;/LSTag&gt; the one you are wielding, making it magical.</content>
+  <content contentuid="hc6bccb41g1a5fge039g91dcgcde85ac08636" version="1">Pact weapons use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+    <content contentuid="hbf27e6b4ga6e6g6ec4ge48fg89b7111f5b07" version="2">Bind Pact Weapon: Ranged Off Hand</content>
+  <content contentuid="h097b9107g51f7g9d03g9d7cgd322b6ddd261" version="2">Bind to your off hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="hff7e4e27gca1fg59eag3a64g202d6bce31ce" version="1">Bind Pact Weapon: Melee Main Hand</content>
+  <content contentuid="h0926d6c1g6825ga2b7g97b9g888500540af1" version="1">Bind to your main hand melee weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h68a3c4cbg4f27ga30dg8db9gaf454c36303f" version="1">Bind Pact Weapon: Melee Off Hand</content>
+  <content contentuid="hac083d20g628cg20f2gfb57g35b4f088eda4" version="1">Bind to your off hand melee weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h19db4d84gf2b3g02a6g3b08g2961b926e89f" version="1">Bind Pact Weapon: Ranged Main Hand</content>
+  <content contentuid="ha982f3a1ga3cbgc55agc19bgfb7bd7d9f0ff" version="1">Bind to your main hand ranged weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+  <content contentuid="h998ba25agb755g879egc8a6g30d69a805878" version="1">Bind Pact Weapon: </content>
+  <content contentuid="hd6b666ceg315bgc997g0cb1gda46d2638eeb" version="2">Damage Pact Weapon</content>
+  <content contentuid="h5e8cca57g1b6cgbfe6g2374g6a15c3cb8385" version="4">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.</content>
+  <content contentuid="h88dd6c3cg8ff9gf269g4596gc9c8f47b2ec3" version="1">Pact Weapon</content>
+  <content contentuid="hec56f4a0gefd8g13fcg0d41gcd82ad06ec5a" version="1">The warlock bound to this weapon is always &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with it. The weapon's damage is magical.</content>
+  <content contentuid="h9e8c5499ga4afg98dcgcc6eg1f51ec4bdf2b" version="1">Pact Weapon</content>
+  <content contentuid="h9cc1b492gaa4bg7885g6e76g74dc0352ade6" version="1">Damage Override</content>
+  <content contentuid="h289c83b1g38e8g430egff66g558ad108d8f1" version="2">Pact Weapon: Psychic Damage</content>
+  <content contentuid="h6233721ag6382g9f22g95a4g6527eb5bc1d6" version="1">Placeholder</content>
+  <content contentuid="h5c575a3dgafd7gdfbdgff78gb645b718d4a7" version="2">Pact Weapon: Necrotic Damage</content>
+  <content contentuid="hd93333d8gc0bdg5fe1g4aafg65e9c61c210b" version="1">Pact Weapon: Damage Override</content>
+  <content contentuid="hdf89183dgc497ga7d6g6801g533b3dcbcae3" version="2">Pact Weapon: Radiant Damage</content>
+  <content contentuid="hdb75636bg0e79g329dgd017g12f13fa05c39" version="1">Placeholder</content>
+  <content contentuid="hdb9c7e03g9a3cgb8acg80e4g573cc3e4bfc6" version="2">Pact of the Blade: Radiant</content>
+  <content contentuid="h428a149ag7b15g8738ge4eeg7ccdcf13b681" version="3">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Radiant damage.</content>
+  <content contentuid="h02523af0g61cege769g5966g5e4fb8eeafaf" version="2">Pact of the Blade: Nectrotic</content>
+  <content contentuid="h96c43309g5748gc5a5gc1feg66a033d65700" version="3">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Necrotic damage.</content>
+  <content contentuid="hbc0fb883g4d6fg10aag3735ged2f3857e77e" version="2">Pact of the Blade: Psychic</content>
+  <content contentuid="hf196335egf95bg286dg8989gfcfaac6c7197" version="3">Whenever you attack with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you can cause the weapon to deal Psychic damage.</content>
+  <content contentuid="h94d96fa7g13c7g0e80gde3cg91bb58af8d46" version="1">%%% EMPTY</content>
+  <content contentuid="h5d975f41g3796g0483ge7ebg2975419545a8" version="1">%%% EMPTY</content>
+  <content contentuid="h21f7569bgee2eg618bg0063gdaecba518fb0" version="1">Lifedrinker</content>
+  <content contentuid="hc430d1ccgc9c6gc6fag9239g2507529e974f" version="6">Once per turn, an attack made with your &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt; deals additional damage equal to your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier. In addition, you gain [2] plus your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; modifier.</content>
+  <content contentuid="had541cf4ga8a9g491fga583g17c54bd435d9" version="3">Extra Attack</content>
+</contentList>

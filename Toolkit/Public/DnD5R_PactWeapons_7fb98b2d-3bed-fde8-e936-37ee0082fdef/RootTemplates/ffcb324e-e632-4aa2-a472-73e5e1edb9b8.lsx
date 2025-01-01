@@ -12,17 +12,24 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="00544958-4656-4e69-8feb-282cb11a6c9e" />
 					<attribute id="VisualTemplate" type="FixedString" value="8586f0d9-f26b-af35-9f30-c52c1791940e" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="2228c005-70d0-1f7d-d1f1-9ae92cd634dd" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h5e6e9cf7g2cd8g2528gd070g4f0cc3aabd7b" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5e6e9cf7g2cd8g2528gd070g4f0cc3aabd7b" version="6" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_HeavyCrossbow_A_2" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_HeavyCrossbow" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_HeavyCrossbow" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="h9cb6bd4agc428g45begaf47g38a859e56dd5" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h9cb6bd4agc428g45begaf47g38a859e56dd5" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="edda8fbb-6456-4514-b3cc-36a2bc674c31" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
+								</node>
+							</children>
+						</node>
 						<node id="Bounds">
 							<children>
 								<node id="Bound">

@@ -21,64 +21,64 @@
   <content contentuid="h1321c78ag3645g5c6dgab0dg5150d74ec507" version="1">Dismiss Pact Weapon</content>
   <content contentuid="h72c8b82fg6d4cgbf4eg68d0g7014ccf62fc7" version="1">Dismiss your pact weapon. </content>
   <content contentuid="hf2223ba6g098bgafa3ge8a7ge51cf94931e8" version="1">If you summoned it, it disappears. If you bound a weapon to you, it returns to its previous state.</content>
-  <content contentuid="hf7bba40bgce34g5f7eg9a5cgedc5740b6d1c" version="8">Pactbound Club</content>
+  <content contentuid="hf7bba40bgce34g5f7eg9a5cgedc5740b6d1c" version="9">Pactbound Club</content>
   <content contentuid="hc4a97292gdc53g399fg141fgdea540c3bf36" version="5">A long, deep crack runs through the side of the wood, filled with crusted blood.</content>
-  <content contentuid="he519e6fbgc04agef25gc33dgca5e2e116fd8" version="6">Pactbound Dagger</content>
+  <content contentuid="he519e6fbgc04agef25gc33dgca5e2e116fd8" version="7">Pactbound Dagger</content>
   <content contentuid="hbf96c60cg6f5fg6a05gc826g0974defdefc6" version="2">A rogue's favourite toy.</content>
-  <content contentuid="h1e47bc77gd95dgbd3dg6183gc8e937edded5" version="6">Pactbound Flail</content>
+  <content contentuid="h1e47bc77gd95dgbd3dg6183gc8e937edded5" version="7">Pactbound Flail</content>
   <content contentuid="h51e7c8e0ge536gb673g408dgb3b890151ab4" version="2">The head of this flail is shiny and new, its wooden shaft still coarse and unmarked by blood.</content>
-  <content contentuid="h26b95ec6g15d2g302dg3527g9717dc086977" version="7">Pactbound Battleaxe</content>
+  <content contentuid="h26b95ec6g15d2g302dg3527g9717dc086977" version="8">Pactbound Battleaxe</content>
   <content contentuid="h7b29f6ddg7db7g49f7gba05g6d0db8d11ad7" version="3">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h52f52422g04e5g05f7g8ba1ge68b8ee0d3db" version="6">Pactbound Greataxe</content>
+  <content contentuid="h52f52422g04e5g05f7g8ba1ge68b8ee0d3db" version="7">Pactbound Greataxe</content>
   <content contentuid="h450a41c6g5a6dg2edbgfa33ga5c5fdeaa364" version="2">The rectangular engravings on this axe's wooden handle have been nearly scratched away by armoured hands.</content>
-  <content contentuid="hdb20a399g434dg1c59g9743g13310a44989c" version="6">Pactbound Greatclub</content>
+  <content contentuid="hdb20a399g434dg1c59g9743g13310a44989c" version="7">Pactbound Greatclub</content>
   <content contentuid="h63cf233cg9688g91c3g5899gda0eb1e02b90" version="2">Traces of dried viscera ring many of the iron spikes embedded in this oak club.</content>
   <content contentuid="he49348adg279dg5598ga2b1gb7b4f7c7a4c7" version="6">Pactbound Greatsword</content>
   <content contentuid="h4ce4246fg4cc0g30c9gf567g21f67d1305a3" version="2">This sword's guard, held haphazardly in place by thin rope, wobbles slightly when swung.</content>
-  <content contentuid="h24319ab5g2991gb6ceg2b48gcdc5b9b86798" version="6">Pactbound Glaive</content>
+  <content contentuid="h24319ab5g2991gb6ceg2b48gcdc5b9b86798" version="7">Pactbound Glaive</content>
   <content contentuid="ha6612129g6114g9911g3ea9ge625366c66f5" version="2">Simple but sharp. The shaft of this glaive is worn smooth with use.</content>
-  <content contentuid="hc4f9bd54gfbd7g9e53g5607g89fbe599240c" version="5">Pactbound Halberd</content>
+  <content contentuid="hc4f9bd54gfbd7g9e53g5607g89fbe599240c" version="6">Pactbound Halberd</content>
   <content contentuid="h224e85b1gf5a3g319fg07fbgf2a016be58f5" version="2">Part of the spike affixed to the top of this halberd has snapped off, leaving a cruel barb.</content>
-  <content contentuid="hab6b6651g209cga1dagd1b1g6d8edf8effae" version="8">Pactbound Handaxe</content>
+  <content contentuid="hab6b6651g209cga1dagd1b1g6d8edf8effae" version="9">Pactbound Handaxe</content>
   <content contentuid="hff80ad74g0e56gcf71g28f9g11b620f36168" version="2">A straightforward hatchet, dulled slightly from chopping wood - or bones.</content>
-  <content contentuid="h67eabde9g5eb7gb4c9g274bgc90b6bbcd9a7" version="6">Pactbound Hand Crossbow</content>
-  <content contentuid="h4f58ea06gef7cgd0d1gec8cgd2ae6b69aa63" version="5">Pactbound Javelin</content>
+  <content contentuid="h67eabde9g5eb7gb4c9g274bgc90b6bbcd9a7" version="7">Pactbound Hand Crossbow</content>
+  <content contentuid="h4f58ea06gef7cgd0d1gec8cgd2ae6b69aa63" version="6">Pactbound Javelin</content>
   <content contentuid="hdc07f85dg2a40g5972g7d34g1b5ac97ef001" version="2">A rusted fishing harpoon, repurposed as a weapon.</content>
-  <content contentuid="h18106ab8gb3a6gd299g9a28gb87d2f9492cd" version="6">Pactbound Light Crossbow</content>
+  <content contentuid="h18106ab8gb3a6gd299g9a28gb87d2f9492cd" version="7">Pactbound Light Crossbow</content>
   <content contentuid="h8228ef65g1005g16dag4a4eg027a38b4b426" version="2">This crossbow's cast iron latch is mottled with blooms of rust.</content>
-  <content contentuid="h68bd257ag6c69g82e5ga64dgfe85b932f75c" version="6">Pactbound Light Hammer</content>
+  <content contentuid="h68bd257ag6c69g82e5ga64dgfe85b932f75c" version="7">Pactbound Light Hammer</content>
   <content contentuid="h64a4f9f5g1fc4g6929g1e4dg9d7b5e6458e6" version="2">A blacksmith's pride and joy, repurposed for combat. Its steel head is tarnished from years in the forge.</content>
-  <content contentuid="hb3eaaff8g0e28g9127g1bf5gdb1d6a4a5aa3" version="6">Pactbound Longbow</content>
-  <content contentuid="hbcb55277g5cf0gcf08g9962ga44b2954215e" version="6">Pactbound Longsword</content>
+  <content contentuid="hb3eaaff8g0e28g9127g1bf5gdb1d6a4a5aa3" version="7">Pactbound Longbow</content>
+  <content contentuid="hbcb55277g5cf0gcf08g9962ga44b2954215e" version="7">Pactbound Longsword</content>
   <content contentuid="hef129d6eg46ebg18b0g6226g57cd27594c51" version="2">A common sword, passed between hands both fresh and battle-scarred.</content>
-  <content contentuid="h5e6e9cf7g2cd8g2528gd070g4f0cc3aabd7b" version="6">Pactbound Heavy Crossbow</content>
+  <content contentuid="h5e6e9cf7g2cd8g2528gd070g4f0cc3aabd7b" version="7">Pactbound Heavy Crossbow</content>
   <content contentuid="h0f3771bdgf8degec07g09c4gb1488d93a2f1" version="2">A standard-issue crossbow, used by many guardsmen.</content>
-  <content contentuid="h5a1637b9g902fgd07fg3026g97cb34abf566" version="6">Pactbound Shortbow</content>
+  <content contentuid="h5a1637b9g902fgd07fg3026g97cb34abf566" version="7">Pactbound Shortbow</content>
   <content contentuid="h17e2dd82ge968g6ad7g192ag98ab15eb236e" version="2">This small, agile bow bears a beautiful elven string, easy to draw but tough as steel.</content>
-  <content contentuid="h2127d84dg35c3g0521g35eag0b2837097404" version="6">Pactbound Shortsword</content>
-  <content contentuid="h3148cbc5g173dgd0c0g77b9g54969de686b7" version="6">Pactbound Mace</content>
+  <content contentuid="h2127d84dg35c3g0521g35eag0b2837097404" version="7">Pactbound Shortsword</content>
+  <content contentuid="h3148cbc5g173dgd0c0g77b9g54969de686b7" version="8">Pactbound Mace</content>
   <content contentuid="h22c3bd60g2b9cg4e82g2e1cgb7d2e0ef0473" version="2">A simple but effective mace, cast en masse by human blacksmiths.</content>
-  <content contentuid="h95596adfg7984gb2bbg9cbfg74d8231a921a" version="7">Pactbound Maul</content>
+  <content contentuid="h95596adfg7984gb2bbg9cbfg74d8231a921a" version="8">Pactbound Maul</content>
   <content contentuid="h89c21574g1111gc514gec26gd25a21fee76f" version="2">Hammers like this are used in many dwarven competitions, testing who can throw them the farthest while enduring the most ale.</content>
-  <content contentuid="h82de40dcgee4egab3agc36cg4ac403648184" version="6">Pactbound Morningstar</content>
+  <content contentuid="h82de40dcgee4egab3agc36cg4ac403648184" version="7">Pactbound Morningstar</content>
   <content contentuid="he5a77fb9gf100gd18bgcb70g59d9c5cbd6f4" version="2">More of this morningstar's iron spikes are bent than not.</content>
-  <content contentuid="hf8977bdfgaeafg2426ge11cg2c8a2ecf1878" version="6">Pactbound Pike</content>
+  <content contentuid="hf8977bdfgaeafg2426ge11cg2c8a2ecf1878" version="7">Pactbound Pike</content>
   <content contentuid="h0a05bcb0g8929g8bb5gd2b5g660a5dcfaab2" version="2">This pike's broad steel head has been repeatedly bent and hammered back into its original shape.</content>
-  <content contentuid="h64ee6ed7gbe9cg779fgd9a5g30c52d1f1a3d" version="7">Pactbound Quarterstaff</content>
+  <content contentuid="h64ee6ed7gbe9cg779fgd9a5g30c52d1f1a3d" version="8">Pactbound Quarterstaff</content>
   <content contentuid="h7cde7bb4g3ecbgb7d0gfbc1g5fe999b97c96" version="2">Someone has carved twenty-seven small lines into the hard wood.</content>
-  <content contentuid="h2fe6ea2dg35e1g30ceg63c0g4747681ea997" version="6">Pactbound Rapier</content>
+  <content contentuid="h2fe6ea2dg35e1g30ceg63c0g4747681ea997" version="7">Pactbound Rapier</content>
   <content contentuid="h045ea4c2g1420g5b7eg1e5cgc73ac1f5de3e" version="2">A slender but deadly sword, favoured by Waterdhavian nobility.</content>
-  <content contentuid="h0e9069e7g962bgf1a6gd02cg6ee0e875fcc9" version="6">Pactbound Scimitar</content>
+  <content contentuid="h0e9069e7g962bgf1a6gd02cg6ee0e875fcc9" version="7">Pactbound Scimitar</content>
   <content contentuid="h558fd38fg65d0gb4deg446dgc4f224a7fa72" version="2">This human-made scimitar falls far short of replicating the quality of the drow style it clearly imitates.</content>
-  <content contentuid="h7fde448bgaa20g187agd172gb3abba171771" version="6">Pactbound Sickle</content>
+  <content contentuid="h7fde448bgaa20g187agd172gb3abba171771" version="7">Pactbound Sickle</content>
   <content contentuid="h404ca224g0daagc427gef8fg65cbf9745b37" version="2">A farming tool with a wicked edge, spilling blood and grain with equal ease.</content>
-  <content contentuid="h9ded4585g9aa5g1138gbef3g197ba55738e0" version="6">Pactbound Spear</content>
+  <content contentuid="h9ded4585g9aa5g1138gbef3g197ba55738e0" version="7">Pactbound Spear</content>
   <content contentuid="h6f9b5170g572fgbd3fged4cg4e098111c9c2" version="2">An aged spear, its steel head nicked by the blows of a dozen battles. </content>
-  <content contentuid="hdd61dd3fgc84ag9aa1g7d23g290f57b314ec" version="6">Pactbound Trident</content>
+  <content contentuid="hdd61dd3fgc84ag9aa1g7d23g290f57b314ec" version="7">Pactbound Trident</content>
   <content contentuid="h701e85a7gd38dgbe46geb98g05cca23f5a45" version="2">It is said tridents were brought to the surface when Umberlee threw a Triton prince who scorned her onto Faerûn's shores.</content>
-  <content contentuid="h39d38c5ag8629g4a3cgc9e2g42542b0e0608" version="6">Pactbound Warhammer</content>
+  <content contentuid="h39d38c5ag8629g4a3cgc9e2g42542b0e0608" version="7">Pactbound Warhammer</content>
   <content contentuid="h4094f408g68a3gf382g14ffg565c7a172066" version="2">This hammer's noticeable lack of upkeep hardly matters, given its heft.</content>
-  <content contentuid="hd4e299d7g35b9g0b77gbe47g50a67035a384" version="5">Pactbound War Pick</content>
+  <content contentuid="hd4e299d7g35b9g0b77gbe47g50a67035a384" version="6">Pactbound War Pick</content>
   <content contentuid="h6135b439g68b3g3aedgcff8g984d46253bdd" version="2">A pickaxe modified to pierce flesh and armour rather than stone.</content>
   <content contentuid="h53fe485dg9d24g599egbc36gd7c123618abe" version="1">Rusty Dagger</content>
   <content contentuid="h03847931g51f3gc6fdg7e7dgcc045320855c" version="1">Useful for writing your name in damp slush and not much else. </content>
@@ -88,37 +88,37 @@
   <content contentuid="h5f0b47d2gdc5dgced0geecage16f18543293" version="1">Useful for writing your name in damp slush and not much else. </content>
   <content contentuid="h7d112282g4e36g9d09gd1a2gb058cff5ca99" version="1">Rusty Dagger</content>
   <content contentuid="h623afe98gb350g74b5g39f5g179e87e6763b" version="1">Useful for writing your name in damp slush and not much else. </content>
-  <content contentuid="h34c7cef1g7fa7g6054g9348g80c257344423" version="3">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hedf9c71bgfdefg0398gafbbg6a3c42ff3382" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hc9021153g3d47g7c04g532ege35d6ca405fc" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h74da3826ga142g52dbg1b6cgcc2eb2753935" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h12fb21cag451bg1ae3g059fgfe6869d2ebd9" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hbe1f0690g9bc9gb272g13fag0e92096cbabf" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="ha5479a45g398bg6607g308cg88a15794e4de" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hdfd70a8dg994egc7ebg2779gac9946a817b0" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h90343602g66dbg2a84g4e4dg056a79b3a7a2" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h8664a3a2g8c9dg850fg0ed2g342b976d7376" version="5">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hf06fc08eg7b4dg87dfga3d9g159f07f50365" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h8cc476cag9095g4d3fg7437g16dfa0447e10" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hdd4fee16g2ea3gca3dg9a61ge55eb50e0a22" version="5">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hfc367ecdg4a50g2ee2gdaceg9b7303ba8f17" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hd5a65e79gc9bfg50b1ga072g7eeefe40493b" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h078eda54g293bgfc83gaff8g0da567f1cc14" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h79ecda77g0dcbgc35bgf972ge156af18f45a" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h0b2d299bgb26age3c8g720bgf8ea315369f2" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h89a13885g8c05g0eb9g7a2dg69532f8c1285" version="3">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h9cb6bd4agc428g45begaf47g38a859e56dd5" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hae0137ceg260ag6abag1187ga4fb18de9031" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h1b754c22gb6afgc20fgf357g1ce98f2ec4ba" version="3">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h34c7cef1g7fa7g6054g9348g80c257344423" version="4">A summonable warpick granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hedf9c71bgfdefg0398gafbbg6a3c42ff3382" version="5">A summonable warhammer granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hc9021153g3d47g7c04g532ege35d6ca405fc" version="5">A summonable trident granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h74da3826ga142g52dbg1b6cgcc2eb2753935" version="5">A summonable spear granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h12fb21cag451bg1ae3g059fgfe6869d2ebd9" version="5">A summonable sickle granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hbe1f0690g9bc9gb272g13fag0e92096cbabf" version="5">A summonable shortsword granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="ha5479a45g398bg6607g308cg88a15794e4de" version="5">A summonable shortbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hdfd70a8dg994egc7ebg2779gac9946a817b0" version="5">A summonable scimitar granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h90343602g66dbg2a84g4e4dg056a79b3a7a2" version="5">A summonable rapier granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h8664a3a2g8c9dg850fg0ed2g342b976d7376" version="6">A summonable quarterstaff granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hf06fc08eg7b4dg87dfga3d9g159f07f50365" version="5">A summonable pike granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h8cc476cag9095g4d3fg7437g16dfa0447e10" version="5">A summonable morningstar granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hdd4fee16g2ea3gca3dg9a61ge55eb50e0a22" version="6">A summonable maul granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hfc367ecdg4a50g2ee2gdaceg9b7303ba8f17" version="6">A summonable mace granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hd5a65e79gc9bfg50b1ga072g7eeefe40493b" version="5">A summonable longsword granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h078eda54g293bgfc83gaff8g0da567f1cc14" version="5">A summonable longbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h79ecda77g0dcbgc35bgf972ge156af18f45a" version="5">A summonable light hammer granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h0b2d299bgb26age3c8g720bgf8ea315369f2" version="5">A summonable light crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h89a13885g8c05g0eb9g7a2dg69532f8c1285" version="4">A summonable javelin granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h9cb6bd4agc428g45begaf47g38a859e56dd5" version="5">A summonable heavy crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hae0137ceg260ag6abag1187ga4fb18de9031" version="5">A summonable hand crossbow granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h1b754c22gb6afgc20fgf357g1ce98f2ec4ba" version="4">A summonable halberd granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
   <content contentuid="h25d4fe9fg7006g5ebag4e9ag1a8093d2b0c7" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h5b11ce0bg6404gbf37g6f8ag919719a89d89" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h89b231bfg4478g13f4geecdgc2e99e271a39" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h346c1484g2327gd1a5g0199gec56c7ca229f" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="h5f1aa0d0g5f32g1523gfbedg8dda0909034a" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hc495cb4dg43dag9c04gc688g6c17cad483c9" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hf19c750fg3e71g69efg038fg8219e4d02704" version="4">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hcb8339bbg72e9gbb07g2a79g5a604eea9fd2" version="3">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
-  <content contentuid="hbdd35565geeafgc882g9300g262d82f5e195" version="6">A summonable weapon granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h5b11ce0bg6404gbf37g6f8ag919719a89d89" version="5">A summonable greatclub granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h89b231bfg4478g13f4geecdgc2e99e271a39" version="5">A summonable greataxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h346c1484g2327gd1a5g0199gec56c7ca229f" version="5">A summonable glaive granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="h5f1aa0d0g5f32g1523gfbedg8dda0909034a" version="5">A summonable flail granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hc495cb4dg43dag9c04gc688g6c17cad483c9" version="5">A summonable dagger granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hf19c750fg3e71g69efg038fg8219e4d02704" version="5">A summonable battleaxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hcb8339bbg72e9gbb07g2a79g5a604eea9fd2" version="4">A summonable club granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
+  <content contentuid="hbdd35565geeafgc882g9300g262d82f5e195" version="7">A summonable handaxe granted by a warlock's patron. Its surface crackles with interdimensional energy.</content>
   <content contentuid="h12d64328g6de4g24dbg2528ga8242866c7cc" version="1">Pact of the Blade: Club</content>
   <content contentuid="h1dcc2971g8a7ag774cg0f7fgf7ee044ae184" version="1">Summon a club.</content>
   <content contentuid="hd61e081dgc5aegb98bg0117g0534e2005ab2" version="1">Pact of the Blade: Dagger</content>

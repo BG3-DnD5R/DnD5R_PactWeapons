@@ -12,14 +12,14 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="6dc63d1d-9efc-4031-b8bb-34684196286b" />
 					<attribute id="VisualTemplate" type="FixedString" value="0de0d7ba-46b4-a967-6e35-855536f8137a" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="378ac27d-5c53-1e0d-cb3e-311d5e0446d3" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hf8977bdfgaeafg2426ge11cg2c8a2ecf1878" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf8977bdfgaeafg2426ge11cg2c8a2ecf1878" version="6" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Pike_A_2" />
+					<attribute id="Icon" type="FixedString" value="WPN_DnD5R_Pact_Pike" />
 					<attribute id="Stats" type="FixedString" value="WPN_DnD5R_Pact_Pike" />
 					<attribute id="LevelOverride" type="int32" value="-1" />
 					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="Description" type="TranslatedString" handle="hf06fc08eg7b4dg87dfga3d9g159f07f50365" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="hf06fc08eg7b4dg87dfga3d9g159f07f50365" version="4" />
 					<attribute id="EquipmentTypeID" type="guid" value="ff959027-4390-44e3-b363-0eacc8134ba6" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<children>
@@ -27,6 +27,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="be460271-537a-4443-a9b5-6c6c6a005ab3" />
 								</node>
 							</children>
 						</node>
